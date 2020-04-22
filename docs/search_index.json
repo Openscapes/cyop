@@ -1,3 +1,6 @@
 [
-["index.html", "R for Excel Users Chapter 1 Welcome", " R for Excel Users Julie Lowndes &amp; Allison Horst 2020-04-21 Chapter 1 Welcome Hello! This is a course taught by Dr. Julie Stewart Lowndes and Dr. Allison Horst at the RStudio Conference: January 27-28 in San Francisco, California. This course is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. It is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration &amp; reproducibility. This book is written to be used as a reference, to teach, or as self-paced learning. And also, awesomely, it’s created with the same tools and practices we will be talking about: R and RStudio — specifically bookdown — and GitHub. It is being fine-tuned but the most recent version is always available: This book: https://rstudio-conf-2020.github.io/r-for-excel/ Book GitHub repo: https://github.com/rstudio-conf-2020/r-for-excel Accompanying slides: Google Slides "]
+["index.html", "Choose youR own Pythway Chapter 1 Welcome", " Choose youR own Pythway Julie Lowndes 2020-04-21 Chapter 1 Welcome Preamble here: Choose your own pathway for Beginning R and Python, dichotomous key. Do you want to learn R or Python? Do you know why? R (go to Ch. Y) Python (go to Ch Y) Unix (go to "],
+["python.html", "Chapter 2 Python", " Chapter 2 Python "],
+["r.html", "Chapter 3 R", " Chapter 3 R Why do you want to learn R? "],
+["unix-aka-the-command-line.html", "Chapter 4 Unix aka The Command Line", " Chapter 4 Unix aka The Command Line "]
 ]

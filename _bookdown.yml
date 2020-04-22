@@ -3,7 +3,10 @@ language:
   ui:
     chapter_name: "Chapter "
 rmd_files: [
-  "index.Rmd"
+  "index.Rmd", 
+  "python.Rmd",
+  "r.Rmd", 
+  "unix.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"

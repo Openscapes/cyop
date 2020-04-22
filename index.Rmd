@@ -1,23 +1,38 @@
 --- 
-title: "R for Excel Users"
-author: "Julie Lowndes & Allison Horst"
+title: "Choose youR own Pythway"
+author: "Julie Lowndes"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a workshop for RStudio::conf(2020) in San Francisco, California"
+description: ""
 ---
 
 # Welcome {#welcome}
 
+*Preamble here: Choose your own pathway for Beginning R and Python, dichotomous key.*
+
+Do you want to learn R or Python? 
+Do you know why? 
+
+- R (go to Ch. Y)
+- Python (go to Ch Y)
+- Unix (go to 
+
+<!---
+
 Hello! This is a course taught by Dr. Julie Stewart Lowndes and Dr. Allison Horst at the RStudio Conference: January 27-28 in San Francisco, California. 
 
 This course is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. It is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility. 
+
 
 This book is written to be used as a reference, to teach, or as self-paced learning. And also, awesomely, it’s created with the same tools and practices we will be talking about: R and RStudio — specifically [bookdown](https://bookdown.org/yihui/bookdown/) — and GitHub. It is being fine-tuned but the most recent version is always available: 
 
 **This book**: <https://rstudio-conf-2020.github.io/r-for-excel/>  
 **Book GitHub repo**: <https://github.com/rstudio-conf-2020/r-for-excel>  
 **Accompanying slides**: [Google Slides](https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing)  
+
+
+--->
