@@ -2,4 +2,13 @@
 
 Why do you want to learn R? 
 
-- 
+-https://education.rstudio.com/learn/beginner/ 
+
+
+
+Learn RMarkdown 
+
+- https://rmd4sci.njtierney.com/
+
+- ML
+https://www.tidymodels.org/
