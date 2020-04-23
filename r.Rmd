@@ -2,9 +2,11 @@
 
 Why do you want to learn R? 
 
--https://education.rstudio.com/learn/beginner/ 
+- R for Excel
+- https://education.rstudio.com/learn/beginner/ 
 
 
+Tidyverse & RStudio airport
 
 Learn RMarkdown 
 

@@ -21,10 +21,10 @@
   
   
 
-<meta name="author" content="Julie Lowndes" />
+<meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-04-21" />
+<meta name="date" content="2020-04-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 
-<link rel="next" href="python.html"/>
+<link rel="next" href="r.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -70,10 +70,14 @@
 <li><a href="https://openscapes.org">← Go to openscapes.org</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
-<li class="chapter" data-level="2" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>2</b> Python</a></li>
-<li class="chapter" data-level="3" data-path="r.html"><a href="r.html"><i class="fa fa-check"></i><b>3</b> R</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#about"><i class="fa fa-check"></i><b>1.1</b> About</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#contributing"><i class="fa fa-check"></i><b>1.2</b> Contributing</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="r.html"><a href="r.html"><i class="fa fa-check"></i><b>2</b> R</a></li>
+<li class="chapter" data-level="3" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>3</b> Python</a></li>
 <li class="chapter" data-level="4" data-path="unix-aka-the-command-line.html"><a href="unix-aka-the-command-line.html"><i class="fa fa-check"></i><b>4</b> Unix aka The Command Line</a></li>
+<li class="chapter" data-level="5" data-path="community-learning.html"><a href="community-learning.html"><i class="fa fa-check"></i><b>5</b> Community learning</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -96,19 +100,37 @@
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Choose youR own Pythway</h1>
-<p class="author"><em>Julie Lowndes</em></p>
-<p class="date"><em>2020-04-21</em></p>
+<p class="author"><em>Julia Stewart Lowndes and contributors</em></p>
+<p class="date"><em>2020-04-23</em></p>
 </div>
 <div id="welcome" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Welcome</h1>
-<p><em>Preamble here: Choose your own pathway for Beginning R and Python, dichotomous key.</em></p>
-<p>Do you want to learn R or Python?
-Do you know why?</p>
+<p>Hello! This book is an evolving set of resources to connect scientists with resources to use to learn computational and open data science skills. It is not an exhaustive list of skill-building resources out there but is highly curated and <a href="https://peerj.com/preprints/3210/">opinionated</a>, intended for awesome scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and collaborative practices, including R, Python, Unix, and GitHub.</p>
+<p>Often, it is hard to even know which skills you need! This book’s “choose your own pathway” style aims to help researchers identify which skills they need to develop, and perhaps as importantly, to be deliberate about <em>why</em>. We’ve often never had these conversations and this book tries to be an opportunity for that.</p>
+<p>This book’s title is not great. It aims to give the reader a sense of participation, without infringing on copyright. It is set up in a style that in ecology we call a “dicotomous key”, where depending to your answer to a prompt, you take yourself to a different part of the book.</p>
+<div id="about" class="section level2">
+<h2><span class="header-section-number">1.1</span> About</h2>
+<p>This book was written, edited and is maintained by <a href="http://jules32.github.io">Julia Stewart Lowndes</a> and <a href="https://openscapes.org">Openscapes</a> with help from community contributors. <!---supported by CZI--->
+Demonstrating the power of open source not only for analysis but for communication, the book is written in R (<a href="https://bookdown.org/yihui/bookdown/">bookdown</a>) and published through GitHub.</p>
+<p>Contributors include:</p>
 <ul>
-<li>R (go to Ch. Y)</li>
-<li>Python (go to Ch Y)</li>
-<li>Unix (go to</li>
+<li>Alexa Fredston-Hermann</li>
 </ul>
+</div>
+<div id="contributing" class="section level2">
+<h2><span class="header-section-number">1.2</span> Contributing</h2>
+<p>This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help improve! Do you have an idea for resources, improvements on text, or on the book’s title?</p>
+<p>We welcome contributions: please edit the book or share resources that have helped you via <a href="mailto:openscapes@nceas.ucsb.edu">email</a> or <a href="https://github.com/openscapes/cyop">GitHub</a>. We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework.</p>
+<hr />
+<p><a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by/4.0/88x31.png' /></a>  Openscapes is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.</p>
+<!---
+Do you want to learn R or Python? 
+Do you know why? 
+
+- R (go to Ch. Y)
+- Python (go to Ch Y)
+- Unix (go to 
+--->
 <!---
 
 Hello! This is a course taught by Dr. Julie Stewart Lowndes and Dr. Allison Horst at the RStudio Conference: January 27-28 in San Francisco, California. 
@@ -126,13 +148,14 @@ This book is written to be used as a reference, to teach, or as self-paced learn
 --->
 
 </div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
 
-<a href="python.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="r.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
