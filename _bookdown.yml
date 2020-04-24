@@ -3,7 +3,8 @@ language:
   ui:
     chapter_name: "Chapter "
 rmd_files: [
-  "index.Rmd", 
+  "index.Rmd",
+  "what-should-i-learn.Rmd",
   "r.Rmd", 
   "python.Rmd",
   "unix.Rmd",

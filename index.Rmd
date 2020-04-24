@@ -16,7 +16,7 @@ Hello! This book is an evolving set of resources to connect scientists with reso
 
 Often, it is hard to even know which skills you need! This book's "choose your own pathway" style aims to help researchers identify which skills they need to develop, and perhaps as importantly, to be deliberate about *why*. We've often never had these conversations and this book tries to be an opportunity for that. 
 
-This book's title is not great. It aims to give the reader a sense of participation, without infringing on copyright. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
+This book's title is not great. It aims to give the reader a sense of participation, without infringing on copyright. And a sense of R and Python. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
 
 ## About
 
