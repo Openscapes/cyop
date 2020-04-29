@@ -3,6 +3,7 @@
 *Preamble: Learn with others. The power of Welcome, empathy. Be inclusive*
 
 
+
 ## Twitter: #rstats {#community-rstats}
 
 ## R4DS Slack Community {#community-r4ds}
@@ -10,6 +11,7 @@ R for Data Science Online Learning Community. For learners ("Develop your skills
 
 - [\@R4DScommunity on Twitter](https://twitter.com/R4DScommunity)
 - [Join the Slack](https://www.rfordatasci.com/)
+  - Why should we use Slack? [slides](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) & [blog](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XqkFPG57nOR)- Stephanie Hicks & Leonardo Collado-Torres 
 
 ## rOpenSci
 

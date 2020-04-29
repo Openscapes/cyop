@@ -5,6 +5,8 @@
 
 ## Intro to Python for data science
 
+<!---check out https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition--->
+
 ## Intro to Python for programming
 
 <!---

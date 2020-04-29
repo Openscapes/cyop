@@ -2,6 +2,8 @@
 
 *Preamble...also modern coders use collaborative version control software like GitHub. Workflows and interoperating between tools and software is really critical.*
 
+*Add opening narratives/personas: you are running other people's scripts but need a workflow, you have your own data but don't know how to analyze it...*
+
 ---
 ## Intro coding
 
@@ -25,6 +27,12 @@
 - intro with R ...\@ref(r-intro)
 - walking back changes with R...\@ref(gh-fix)
 
+<!---
+## Manuscripts
+
+- should I use latex?
+- Rmd
+--->
 
 ## Machine Learning (ML)
 
