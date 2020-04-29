@@ -1,0 +1,8 @@
+# Git/GitHub {#git-hub}
+
+*Preamble: IDEs vs command line, not branches, etc*
+<!---Traditionally a miserable experience for scientists--->
+
+## Fixing mistakes {#gh-fix}
+
+- [GitHub: A beginner's guide to going back in time (aka fixing mistakes)](https://ohi-science.org/news/github-going-back-in-time) - Melanie Frazier

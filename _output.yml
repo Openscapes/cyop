@@ -2,9 +2,10 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
+      collapse: section
       before: |
-        <li><a href="./">R for Excel Users</a></li>
-        <li><a href="https://openscapes.org">← Go to openscapes.org</a></li>
+        <li><a href="./">Choose youR own Pythway</a></li>
+        <!---<li><a href="https://openscapes.org">← Go to openscapes.org</a></li>--->
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: ["epub"]

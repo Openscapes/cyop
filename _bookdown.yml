@@ -8,6 +8,8 @@ rmd_files: [
   "r.Rmd", 
   "python.Rmd",
   "unix.Rmd",
+  "github.Rmd",
+  "workflows.Rmd",
   "community.Rmd"
  ]
 delete_merged_file: true

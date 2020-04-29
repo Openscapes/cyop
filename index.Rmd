@@ -12,35 +12,46 @@ description: ""
 
 # Welcome {#welcome}
 
-Hello! This book is an evolving set of resources to connect scientists with resources to use to learn computational and open data science skills. It is not an exhaustive list of skill-building resources out there but is highly curated and [opinionated](https://peerj.com/preprints/3210/), intended for awesome scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and collaborative practices, including R, Python, Unix, and GitHub.
+Hello! This book is an evolving set of resources to connect scientists with resources to use to learn computational and open data science skills. It is not an exhaustive list of skill-building resources out there but is highly curated and [opinionated](https://peerj.com/preprints/3210/) and increasingly narrated, intended for awesome scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and collaborative practices, including R, Python, Unix, and GitHub.
 
-Often, it is hard to even know which skills you need! This book's "choose your own pathway" style aims to help researchers identify which skills they need to develop, and perhaps as importantly, to be deliberate about *why*. We've often never had these conversations and this book tries to be an opportunity for that. 
+Often, it is hard to even know which skills you need! This book's "choose your own pathway" style aims to help you as a researcher identify which skills you need to develop and be deliberate about *why*. <!---We've often never had these conversations and this book tries to provide an opportunity. --->
 
-This book's title is not great. It aims to give the reader a sense of participation, without infringing on copyright. And a sense of R and Python. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
+This book's title is really not great. It aims to give the reader a sense of participation — without infringing on copyright — and a sense of R and Python. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
+
+## How to use this book
+
+While you can use this book alone, even better to learn together (see Chapter \@ref(community)!). Start with a colleague/friend; you can be "accountability buddies" for each other while you choose you own pathways together, and you can continue to be even as your paths diverge.
 
 ## About
 
-This book was written, edited and is maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from community contributors. <!---supported by CZI--->
+While this book is designed for wide use across research domains, we are developing it specifically to meet the needs of biomedical scientists who are part of [CZI](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04). It is written, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of community contributors, including you. <!---supported by CZI--->
 Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
+
 
 Contributors include:
 
+- NDGN Office Hours participants
 - Alexa Fredston-Hermann
 
 
 ## Contributing
 
-This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help improve! Do you have an idea for resources, improvements on text, or on the book's title? 
+This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help us improve! Do you have an idea for resources, improvements on text, or on the book's title? 
 
-We welcome contributions: please edit the book or share resources that have helped you via [email](mailto:openscapes@nceas.ucsb.edu) or [GitHub](https://github.com/openscapes/cyop). We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework.
+We welcome contributions: please edit the book or share resources that have helped you via [email](mailto:openscapes@nceas.ucsb.edu) or [GitHub](https://github.com/openscapes/cyop). We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework and audience needs.
 
 ----
 
-<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by/4.0/88x31.png' /></a>&nbsp;&nbsp;Openscapes is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
+<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by/4.0/88x31.png' /></a>&nbsp;&nbsp;This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
 
 
 
 <!---
+https://github.com/rstudio/bookdown-demo/blob/master/01-intro.Rmd: 
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+
 Do you want to learn R or Python? 
 Do you know why? 
 

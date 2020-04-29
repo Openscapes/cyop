@@ -1,15 +1,24 @@
-# Community learning
+# Community learning {#community}
+
+*Preamble: Learn with others. The power of Welcome, empathy. Be inclusive*
 
 
-Learn with others
+## Twitter: #rstats {#community-rstats}
 
-Welcome, empathy.
+## R4DS Slack Community {#community-r4ds}
+R for Data Science Online Learning Community. For learners ("Develop your skills in R and Data science with a friendly community"), mentors ("help build a positive learning community for R users and expand your R debugging skills"), and community ("help develop resources for others to feel part of the #rstats community")
 
-Be inclusive 
+- [\@R4DScommunity on Twitter](https://twitter.com/R4DScommunity)
+- [Join the Slack](https://www.rfordatasci.com/)
+
+## rOpenSci
+
+## RLadies
+
+## pyOpenSci
 
 - https://chadsansing.gitbooks.io/open-facilitation/content/chapter12.html
 
 
-Twitter. 
-
+Twitter. rstats. 
 Draw from R for Excel Users, Openscapes.

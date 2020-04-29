@@ -1,1 +1,32 @@
 # Python
+
+*Preamble: python for data science or programming.*
+<!---You can execute scripts in Python but want to learn how to write Python--->
+
+## Intro to Python for data science
+
+## Intro to Python for programming
+
+<!---
+https://developers.google.com/edu/python 
+https://scipy-lectures.org/
+Udemy python
+https://github.com/wajra/python-workshop + associated videos! 
+https://github.com/cuttlefishh/python-for-data-analysis
+https://plotnine.readthedocs.io/en/stable/
+https://jakevdp.github.io/PythonDataScienceHandbook/
+https://datacarpentry.org/python-ecology-lesson/
+https://swcarpentry.github.io/python-novice-inflammation/index.html
+--->
+
+
+## Machine Learning
+
+- [Introduction to Machine Learning](https://www.coursera.org/learn/machine-learning-duke) - Lawrence Carin, Coursera
+
+<!---
+^was pretty short and conceptual, the coding assignments could use more work and support. Good for going from zero to a good conceptual understanding in a short period of time. (Many machine learning algorithms can be used like a function so this may be all you need to apply existing networks to your data)
+
+Roman: i’m taking a EdX course incl bioconductor
+Really nice: not about implementing stats but instead understanding the concepts behind. Simulations to understand pvalues. (which course?)
+--->
