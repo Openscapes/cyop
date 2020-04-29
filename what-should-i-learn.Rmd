@@ -16,9 +16,11 @@
 
 (single cell)
 
-- You want to learn CellProfiler...  <!---https://cellprofiler.org/--->  
-- You want to learn ImageJ...  <!---https://imagej.nih.gov/ij/--->
-- You want to learn QuPath...  <!---https://qupath.github.io/--->
+- You want to learn CellProfiler...  <https://cellprofiler.org/>
+- You want to learn ImageJ...  <https://imagej.nih.gov/ij/>
+- You want to learn QuPath...  <https://qupath.github.io/>
+- You want to learn Napari... <https://napari.org/tutorials/> - Nick Sofroniew
+<!---but right now if you're working in Python and doing image analysis you can get going from here--->
 - You want to use streamline your current workflow... <!--- with R/Python...--->
 
 

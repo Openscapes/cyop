@@ -20,6 +20,10 @@ This book's title is really not great. It aims to give the reader a sense of par
 
 ## How to use this book
 
+Use this to help guide you to resources with lower effort. Don't need to learn a new language all the time. You could do it in the Command Line, you could also do it through R, you can interoperate between Python and R. The point is that you're not reinventing the wheel. So don't interpret this choose your own adventure as reinventing the wheel <!---Allison. It does sound like a new thing. FRAMING ---> We want you to not go on your own adventure, we want you to go on these opiniotated pathways
+Choose your adventure but from your adventure 
+Choose an ad but it's an adventure that others have created this pathway. Well-worn path
+
 While you can use this book alone, even better to learn together (see Chapter \@ref(community)!). Start with a colleague/friend; you can be "accountability buddies" for each other while you choose you own pathways together, and you can continue to be even as your paths diverge.
 
 ## About
