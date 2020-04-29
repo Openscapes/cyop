@@ -4,6 +4,10 @@
 
 *Add opening narratives/personas: you are running other people's scripts but need a workflow, you have your own data but don't know how to analyze it...*
 
+<!---to help you as a researcher identify which skills you need to develop and be deliberate about *why*. <!---We've often never had these conversations and this book tries to provide an opportunity. --->
+
+
+
 ---
 ## Intro coding
 

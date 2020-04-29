@@ -12,17 +12,15 @@ description: ""
 
 # Welcome {#welcome}
 
-Hello! This book is an evolving set of resources to connect scientists with resources to use to learn computational and open data science skills. It is not an exhaustive list of skill-building resources out there but is highly curated and [opinionated](https://peerj.com/preprints/3210/) and increasingly narrated, intended for awesome scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and collaborative practices, including R, Python, Unix, and GitHub.
+Hello! This book aims to empower scientists with resources to use to learn computational and open data science skills. Often, it is hard to even know which skills you need! This book's "choose your own pathway" style invites you to choose an intentional and well-worn path rather than creating one from scratch. 
 
-Often, it is hard to even know which skills you need! This book's "choose your own pathway" style aims to help you as a researcher identify which skills you need to develop and be deliberate about *why*. <!---We've often never had these conversations and this book tries to provide an opportunity. --->
+This book is not an exhaustive list of skill-building resources available but is highly curated, [opinionated](https://peerj.com/preprints/3210/) and increasingly narrated, intended for awesome scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and collaborative practices, including R, Python, Unix, and GitHub.
 
 This book's title is really not great. It aims to give the reader a sense of participation — without infringing on copyright — and a sense of R and Python. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
 
 ## How to use this book
 
-Use this to help guide you to resources with lower effort. Don't need to learn a new language all the time. You could do it in the Command Line, you could also do it through R, you can interoperate between Python and R. The point is that you're not reinventing the wheel. So don't interpret this choose your own adventure as reinventing the wheel <!---Allison. It does sound like a new thing. FRAMING ---> We want you to not go on your own adventure, we want you to go on these opiniotated pathways
-Choose your adventure but from your adventure 
-Choose an ad but it's an adventure that others have created this pathway. Well-worn path
+Use this book to help 1) guide you to setup or streamline your analytical workflows and 2) create your learning plan. Do you really need to learn a new language or software, or do you need to reduce the friction interoperating between languages or software you already know? This book will help you think this through so that you can incrementally improve your skills and workflows. For example, if your workflow requires multiple software interfaces and languages like the Command Line to run a Python program followed by R to create figures, this book will offer you to consider that from within R you can execute Command Line and Python functions in addition to making publication-ready graphics, in a reproducible report — and direct you with resources to learn. <!--- The point is that you're not reinventing the wheel. So don't interpret this choose your own adventure as reinventing the wheel Allison. It does sound like a new thing. FRAMING --->
 
 While you can use this book alone, even better to learn together (see Chapter \@ref(community)!). Start with a colleague/friend; you can be "accountability buddies" for each other while you choose you own pathways together, and you can continue to be even as your paths diverge.
 
