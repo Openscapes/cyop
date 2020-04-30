@@ -1,13 +1,6 @@
-# NDCN Workflows {#ndcn-workflows}
+# Workflows {#workflows}
 
 *Preamble:*
 
 
-## Quantitative Methods in Genetics and Genomics Course
-- [Quantitative Methods in Genetics and Genomics Course](https://github.com/biom262/cmm262-2020) - Gene Yeo and others
-  - Assumes...
-
-
-## evcouplings pipeline {#evcouplings}
-- EVcouplings Python Framework Marks lab, https://evcouplings.org/ 
-
+https://github.com/pditommaso/awesome-pipeline
