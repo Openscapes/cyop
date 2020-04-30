@@ -1,8 +1,13 @@
-# Workflows {#workflows}
+# NDCN Workflows {#ndcn-workflows}
 
-*Preamble: interoperability between software, workflows etc. Evolving with the softwarescape*
+*Preamble:*
 
-## Overview of what's important & possible {#workflow-overview}
 
-- Wilson et al. 
-- Lowndes et al. 
+## Quantitative Methods in Genetics and Genomics Course
+- [Quantitative Methods in Genetics and Genomics Course](https://github.com/biom262/cmm262-2020) - Gene Yeo and others
+  - Assumes...
+
+
+## evcouplings pipeline {#evcouplings}
+- EVcouplings Python Framework Marks lab, https://evcouplings.org/ 
+

@@ -4,12 +4,24 @@
 
 *Add opening narratives/personas: you are running other people's scripts but need a workflow, you have your own data but don't know how to analyze it...*
 
-<!---to help you as a researcher identify which skills you need to develop and be deliberate about *why*. <!---We've often never had these conversations and this book tries to provide an opportunity. --->
+<!---to help you as a researcher identify which skills you need to develop and be deliberate about *why*.
+
+Different learner styles, more directed self-taught less wasted time and wheels reinvented.
+
+<!---We've often never had these conversations and this book tries to provide an opportunity.
+
+Quotes: 
+- " Part of learning how to be an effective computational biologist is to learn how to learn efficiently."
+- "I think it’s really hard for new people to jump in. The learning curves can be steep, and it’s hard for them to judge how much should they expect "
+
+
+--->
 
 
 
 ---
 ## Intro coding
+Coding tutorials will teach you how to start from scratch and help you develop the mindset to seek out existing code that works (including your own!) and adapt it for your analyses. 
 
 - You want to learn R ...\@ref(r-intro)  
 - You want to learn Python...  
@@ -17,6 +29,7 @@
 - You are not sure or need to use multiple languages together...\@ref(workflow-overview)  
 
 ## Image analysis 
+(create a separate chapter)
 
 (single cell)
 
@@ -27,11 +40,30 @@
 <!---but right now if you're working in Python and doing image analysis you can get going from here--->
 - You want to use streamline your current workflow... <!--- with R/Python...--->
 
+## RNA Sequencing
+
+- Molly Hammell software
+- Gene Yeo UCSD course
+
+
+## Project Management & Workflows
+
+- Google Drive...
+- Box...
+- Dropbox...
+- AWS...
+- Project-oriented workflows....\@ref(proj-oriented)
+- R Markdown...\@ref(rmarkdown)
+- Jupyter Notebooks...
+- GitHub Issues...\@ref(gh-issues)
+- evcouplings pipeline...\@ref(evcouplings)
+- text editors (could be its own chapter)
 
 ## GitHub
 
 - intro with R ...\@ref(r-intro)
 - walking back changes with R...\@ref(gh-fix)
+- Issues...\@ref(gh-issues)
 
 <!---
 ## Manuscripts
@@ -40,8 +72,22 @@
 - Rmd
 --->
 
+## Data Sharing
+Platforms for data sharing <!---Gene Yeo CRED portal as an example:) ) https://www.dropbox.com/s/9gvep1mkqxsj7g1/CRED_slides.pptx?dl=0)
+
+
 ## Machine Learning (ML)
 
+<!--- tensorflow, fast.ai, Kelly Brock--->
 - Intro to ML conceptually ...
 - Intro ML in R....\@ref(rstats-ml)  
 - Intro ML in Python....
+
+## Plotting 
+(should this a thing?)
+
+
+## Publishing
+*create its own page* 
+
+- GitHub for Publishing...\@ref(gh-issues)

@@ -2,16 +2,35 @@
 
 *Preamble: Learn with others. The power of Welcome, empathy. Be inclusive*
 
+> "If you want to learn to write, you read a lot, if you want to play music, you listen a lot. It's hard to do this w data analysis." - [Hilary Parker, RStudio::conf(2020) keynote ](https://twitter.com/juliesquid/status/1223046389447311361)
+
+This is why we have community, to help us connect, share, & learn. 
 
 
-## Twitter: #rstats {#community-rstats}
 
-## R4DS Slack Community {#community-r4ds}
+## Twitter {#community-twitter}
+You can use Twitter for coding?
+
+### #rstats {#community-rstats}
+
+### #tidytuesday {#tidy-tuesday}
+<!---can we do this for python --->
+
+## Slack {#community-slack}
+You can use Slack for coding?
+From Gene & Jon: Help folks become good teachers/mentors, Use the network: teach the potential teachers. Become a mentor, put it on your CV.
+
+  - Why should we use Slack? [slides](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) & [blog](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XqkFPG57nOR)- Stephanie Hicks & Leonardo Collado-Torres 
+
+### Gene Yeo's learning channel
+
+
+### R4DS <Slack> Community {#community-r4ds}
 R for Data Science Online Learning Community. For learners ("Develop your skills in R and Data science with a friendly community"), mentors ("help build a positive learning community for R users and expand your R debugging skills"), and community ("help develop resources for others to feel part of the #rstats community")
 
 - [\@R4DScommunity on Twitter](https://twitter.com/R4DScommunity)
 - [Join the Slack](https://www.rfordatasci.com/)
-  - Why should we use Slack? [slides](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) & [blog](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XqkFPG57nOR)- Stephanie Hicks & Leonardo Collado-Torres 
+- Jon's lightning talk
 
 ## rOpenSci
 
