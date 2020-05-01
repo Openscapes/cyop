@@ -1,0 +1,9 @@
+# Scripts {#scripts}
+
+*Preamble*
+
+These scripts are contributed from the NDCN community and have been adapted or "remixed" by other community members during office hours hackathons, etc. All scripts will be in a GitHub repo. 
+
+## scripts to organize & name incoming imaging files
+- in language X...
+

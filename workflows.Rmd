@@ -1,6 +1,12 @@
-# Workflows {#workflows}
+# Workflows & pipelines {#workflows}
 
 *Preamble:*
 
 
 https://github.com/pditommaso/awesome-pipeline
+
+
+## SQL and R
+
+- [Using SQL in RStudio](https://irene.rbind.io/post/using-sql-in-rstudio/)
+  - Assumes you are already an R/RStudio user. For a refresher...Chapter \@ref(r-intro)

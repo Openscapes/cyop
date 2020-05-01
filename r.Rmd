@@ -40,14 +40,20 @@ Modern R users use RStudio. RStudio provides a software interface (called the ID
 *aka literate programming, notebooks, also for publishing*
 
 - [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
+  - Assumes...
+  
+- Making websites in RMarkdown  
 
 ## Shiny
 
 - [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham
+  - Assumes...
 - [Shiny tips & tricks for improving your apps and solving common problems](https://deanattali.com/blog/advanced-shiny-tips/) - Dean Attali
 
 
 ## Machine Learning {#rstats-ml}
 
 - [tidymodels](https://www.tidymodels.org/) by RStudio Education
+  - Assumes...check out Ch X first
 - [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
+

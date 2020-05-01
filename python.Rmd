@@ -10,6 +10,9 @@
 ## Intro to Python for programming
 
 <!---
+Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
+
+
 https://developers.google.com/edu/python 
 https://scipy-lectures.org/
 Udemy python

@@ -8,7 +8,7 @@
 - [GitHub: A beginner's guide to going back in time (aka fixing mistakes)](https://ohi-science.org/news/github-going-back-in-time) - Melanie Frazier
 
 
-## GitHub Issues {gh-issues} 
+## GitHub Issues {#gh-issues} 
 
 - [GitHub for project management](https://openscapes.github.io/series/github-issues.html) - Julie Lowndes, Openscapes
 - [GitHub for publishing](https://openscapes.github.io/series/github-pub.html) - Julie Lowndes, Openscapes

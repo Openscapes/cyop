@@ -1,4 +1,4 @@
-# NDCN Workflows {#ndcn-workflows}
+# Workflows by NDCN {#ndcn-workflows}
 
 *Preamble:*
 
@@ -8,6 +8,6 @@
   - Assumes...
 
 
-## evcouplings pipeline {#evcouplings}
+## evcouplings pipeline {#ndcn-workflows-evcouplings}
 - EVcouplings Python Framework Marks lab, https://evcouplings.org/ 
 

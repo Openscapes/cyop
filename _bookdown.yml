@@ -12,7 +12,8 @@ rmd_files: [
   "workflows.Rmd",
   "ndcn-workflows.Rmd",
   "proj-mgmt.Rmd",
-  "community.Rmd"
+  "community.Rmd",
+  "scripts.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"

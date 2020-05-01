@@ -1,4 +1,4 @@
-# Project Management & Workflows {#proj-mgmt}
+# Project Management {#proj-mgmt}
 
 *Preamble: interoperability between software, workflows etc. Evolving with the softwarescape*
 
