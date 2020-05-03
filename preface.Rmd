@@ -1,0 +1,9 @@
+# Preface {#preface}
+
+- as scientists, don't have time to start from the beginning
+- we need welcoming entryways
+- a lot of wonderful tutorials out there to learn the thing you want. But what about when you don't know exactly what you need, or you need? Or you want to streamline? 
+- this book tries to help you find entryways and think about what you need
+- not a comprehensive list of choices but some well-worn pathways
+- opinionated to limit choice (opinions by Lowndes and others — individual attribution by section)
+- written for scientists by scientists

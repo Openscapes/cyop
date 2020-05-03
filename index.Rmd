@@ -25,7 +25,7 @@ Use this book to help create your learning plan to setup new analytical workflow
 
 While you can use this book alone, it is much better to learn together (see Chapter \@ref(community)!). Start with a colleague/friend; you can be "accountability buddies" for each other while you choose you own pathways together, and you can continue to be even as your paths diverge.
 
-Start with Chapter \@ref(what-to-learn) to choose your own pathway.
+Read more in the Preface in Chapter \@ref(preface) and then go to Chapter \@ref(what-to-learn) to choose your own pathway.
 
 ## About
 
