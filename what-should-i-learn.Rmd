@@ -48,9 +48,7 @@ Coding tutorials will teach you how to start from scratch and help you develop t
 
 ## Project Management & Workflows
 
-- Google Drive...
-- Box...
-- Dropbox...
+- Google Drive / Box / Dropbox...
 - AWS...
 - Project-oriented workflows....\@ref(proj-oriented)
 - R Markdown...\@ref(rmarkdown)
@@ -79,12 +77,13 @@ Platforms for data sharing <!---Gene Yeo CRED portal as an example:) ) https://w
 ## Machine Learning (ML)
 
 <!--- tensorflow, fast.ai, Kelly Brock--->
+
 - Intro to ML conceptually ...
 - Intro ML in R....\@ref(rstats-ml)  
 - Intro ML in Python....
 
 ## Plotting 
-(should this a thing?)
+*should this be a section or page?*
 
 
 ## Publishing
