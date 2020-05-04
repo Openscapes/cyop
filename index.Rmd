@@ -29,7 +29,7 @@ Read more in the Preface in Chapter \@ref(preface) and then go to Chapter \@ref(
 
 ## About
 
-We are developing it specifically to meet the needs of biomedical scientists who are part of [CZI](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) — but it is designed for wide use across research domains. It is written, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of community contributors, including you. <!---supported by CZI--->
+We are developing this book specifically to meet the needs of biomedical scientists who are part of [CZI](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) — but it is designed for wide use across research domains. It is led, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of NDCN contributors, including you. <!---supported by CZI--->
 Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
 
 
