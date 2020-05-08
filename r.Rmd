@@ -8,15 +8,23 @@
 
 Modern R users use RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (#rstats). <!---Tidyverse & RStudio airport--->
 
-## Intro to R/RStudio for data science {#r-intro}
+## Intro to R/RStudio for data science with the tidyverse {#r-intro}
 - [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst <!---lengths?--->
   - Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
 - [R for Data Science](r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
   - THE go-to resource for all things tidyverse. Called R4DS for short.
   - learn with the R4DS community...\@ref(community-r4ds)
 - [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
+<!---
+R: tidyverse and tidy data. People start using R and haven’t heard of tidyverse, some people learn tidyverse and don’t know it
+--->
+
 
 <!---
+ Statistical modeling in R
+ 
+ http://faculty.marshall.usc.edu/gareth-james/ISL/
+
 ### Intermediate R for data science
 
 - [R Education for Intermediate](https://education.rstudio.com/learn/intermediate/) - RStudio Education

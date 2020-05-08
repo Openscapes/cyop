@@ -2,7 +2,7 @@
 
 *Preamble: Learn with others. The power of Welcome, empathy. Be inclusive*
 
-> "If you want to learn to write, you read a lot, if you want to play music, you listen a lot. It's hard to do this w data analysis." - [Hilary Parker, RStudio::conf(2020) keynote ](https://twitter.com/juliesquid/status/1223046389447311361)
+> "If you want to learn to write, you read a lot, if you want to play music, you listen a lot. It's hard to do this w data analysis." - [Hilary Parker & Roger Peng, RStudio::conf(2020) keynote ](https://twitter.com/juliesquid/status/1223046389447311361)
 
 This is why we have community, to help us connect, share, & learn. 
 
@@ -39,6 +39,9 @@ R for Data Science Online Learning Community. For learners ("Develop your skills
 ## pyOpenSci
 
 - https://chadsansing.gitbooks.io/open-facilitation/content/chapter12.html
+
+
+<!---researchgate chelsey--->
 
 
 Twitter. rstats. 

@@ -14,9 +14,11 @@ description: ""
 
 Hello! This book aims to empower scientists with resources to use to learn computational and open data science skills. Often, it is hard to even know which skills you need! This book's "choose your own pathway" style invites you to choose an intentional and well-worn path rather than creating one from scratch. 
 
-This book is not an exhaustive list of skill-building resources available but is highly curated, [opinionated](https://peerj.com/preprints/3210/), and increasingly narrated to meet the needs of scientists that are new to coding and/or those looking to upgrade existing workflows. Resources center around open source languages and reproducible, collaborative workflows, including R, Python, Unix, and GitHub.
+This book is not an exhaustive list of skill-building resources available but is highly curated, [opinionated](https://peerj.com/preprints/3210/), and increasingly narrated to meet the needs of scientists that are new to coding and/or those looking to upgrade existing workflows. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. Resources center around open source languages and reproducible, collaborative workflows, including R, Python, Unix, and GitHub.
 
-This book's title is really not great. It aims to give the reader a sense of participation — without infringing on copyright — and a sense of R and Python. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. 
+<!---
+
+--->
 
 ## How to use this book
 
@@ -42,7 +44,7 @@ Contributors include:
 
 ## Contributing
 
-This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help us improve! Do you have an idea for resources, improvements on text, or on the book's title? 
+This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help us improve! Do you have an idea for resources, improvements on text, or a better title for the book? (This book's title is really not great. It aims to give the reader a sense of participation — without infringing on copyright — and a sense of R and Python.)
 
 We welcome contributions: please edit the book or share resources that have helped you via [email](mailto:openscapes@nceas.ucsb.edu) or [GitHub](https://github.com/openscapes/cyop). We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework and audience needs.
 

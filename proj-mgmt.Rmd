@@ -20,7 +20,3 @@
 ## Google Docs 
 
 ## Box
-
-## evcouplings pipeline {#evcouplings}
-EVcouplings Python Framework Marks lab, https://evcouplings.org/ 
-

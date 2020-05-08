@@ -1,0 +1,7 @@
+# The Command Line {#command-line}
+
+*Preamble: The Command Line has many names, including Unix, Terminal...*
+
+<!---
+https://www.coursera.org/learn/unix#syllabus 
+--->
