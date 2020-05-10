@@ -43,7 +43,7 @@ Introductory tutorials will help you install software and get comfortable using 
 (single cell)
 
 - You want to learn CellProfiler...  <https://cellprofiler.org/>
-- You want to learn ImageJ...  <https://imagej.net/Welcome> <!---https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
+- You want to learn ImageJ...  <https://imagej.net/Introduction> <!---https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
 - You want to learn QuPath...  <https://qupath.github.io/>
 - You want to learn Napari... <https://napari.org/tutorials/> - Nick Sofroniew
 <!---but right now if you're working in Python and doing image analysis you can get going from here--->
