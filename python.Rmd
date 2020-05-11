@@ -1,27 +1,41 @@
-# Python
+# Python {#python}
 
 *Preamble: python for data science or programming.*
-<!---You can execute scripts in Python but want to learn how to write Python--->
+<!---You can execute scripts in Python but want to learn how to write Python
+There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
+--->
 
-## Intro to Python for data science
+**Versions**. Python had some upgrades between versions 2 and 3 in ~2010, and it's important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. (See also [this discussion on page *vi*](https://link.springer.com/book/10.1007/978-3-662-49887-3)). Either way, the majority of your learning will be the same, but just keep these Versions in mind.
+
+## Learning Python as a first language {#python-first}
+
+- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry
+  - Assumes no previous coding experience <!--- setup recommends using Anaconda Jupyter Notebook --->
+  - Python 3
+
+## Learning Python as a second language {#python-second}
+- [Scipy Lecture Notes](https://scipy-lectures.org/index.html) - Edited by Varoquaux et al. 
+  - Assumes some familiarity with coding concepts
+  - Python 3
+
+- [Python Introduction](https://developers.google.com/edu/python/introduction) - Google for Education 
+  - Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.  
+  - Python 2
 
 <!---check out https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition--->
 
-## Intro to Python for programming
 
 <!---
 Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
 
 
-https://developers.google.com/edu/python 
-https://scipy-lectures.org/
 Udemy python
 https://github.com/wajra/python-workshop + associated videos! 
 https://github.com/cuttlefishh/python-for-data-analysis
 https://plotnine.readthedocs.io/en/stable/
 https://jakevdp.github.io/PythonDataScienceHandbook/
 https://datacarpentry.org/python-ecology-lesson/
-https://swcarpentry.github.io/python-novice-inflammation/index.html
+
 --->
 
 

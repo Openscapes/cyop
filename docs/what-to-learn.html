@@ -24,7 +24,7 @@
 <meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-05-08" />
+<meta name="date" content="2020-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -77,7 +77,7 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i><b>2</b> Preface</a></li>
 <li class="chapter" data-level="3" data-path="what-to-learn.html"><a href="what-to-learn.html"><i class="fa fa-check"></i><b>3</b> What should I learn?</a><ul>
-<li class="chapter" data-level="3.1" data-path="what-to-learn.html"><a href="what-to-learn.html#intro-coding"><i class="fa fa-check"></i><b>3.1</b> Intro coding</a></li>
+<li class="chapter" data-level="3.1" data-path="what-to-learn.html"><a href="what-to-learn.html#learn-a-new-language"><i class="fa fa-check"></i><b>3.1</b> Learn a new language</a></li>
 <li class="chapter" data-level="3.2" data-path="what-to-learn.html"><a href="what-to-learn.html#image-analysis"><i class="fa fa-check"></i><b>3.2</b> Image analysis</a></li>
 <li class="chapter" data-level="3.3" data-path="what-to-learn.html"><a href="what-to-learn.html#rna-sequencing"><i class="fa fa-check"></i><b>3.3</b> RNA Sequencing</a></li>
 <li class="chapter" data-level="3.4" data-path="what-to-learn.html"><a href="what-to-learn.html#project-management-workflows"><i class="fa fa-check"></i><b>3.4</b> Project Management &amp; Workflows</a></li>
@@ -95,8 +95,8 @@
 <li class="chapter" data-level="4.5" data-path="rstats.html"><a href="rstats.html#rstats-ml"><i class="fa fa-check"></i><b>4.5</b> Machine Learning</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>5</b> Python</a><ul>
-<li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#intro-to-python-for-data-science"><i class="fa fa-check"></i><b>5.1</b> Intro to Python for data science</a></li>
-<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#intro-to-python-for-programming"><i class="fa fa-check"></i><b>5.2</b> Intro to Python for programming</a></li>
+<li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#python-first"><i class="fa fa-check"></i><b>5.1</b> Learning Python as a first language</a></li>
+<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-second"><i class="fa fa-check"></i><b>5.2</b> Learning Python as a second language</a></li>
 <li class="chapter" data-level="5.3" data-path="python.html"><a href="python.html#machine-learning"><i class="fa fa-check"></i><b>5.3</b> Machine Learning</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="command-line.html"><a href="command-line.html"><i class="fa fa-check"></i><b>6</b> The Command Line</a></li>
@@ -156,11 +156,15 @@
             <section class="normal" id="section-">
 <div id="what-to-learn" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> What should I learn?</h1>
-<p>A great thing about modern computation is that there are multiple ways to do the same thing. But this can also be a really challenging thing about modern computing: what should you learn? And in which order?</p>
-<p>Modern scientific coders use don’t just know a single language or tool, they know a suite of tools and concepts that help them develop workflows and interoperate between software to do their analytical research.</p>
-<p><em>Preamble…also modern coders use collaborative version control software like GitHub. Workflows and interoperating between tools and software is really critical.</em></p>
-<p><em>Add opening narratives/personas: you are running other people’s scripts but need a workflow, you have your own data but don’t know how to analyze it…</em></p>
 <!---
+A great thing about modern computation is that there are multiple ways to do the same thing. But this can also be a really challenging thing too: what should you learn? And in which order?
+
+Modern scientific coders use don't just know a single language or tool, they know enough about a few tools along with a suite of concepts that help them develop workflows and interoperate between languages and software to do their analytical research. Learning one language to do a task at hand can help you develop skills and mindsets that can be transferrable when you come upon other tasks. 
+--->
+<p><em>Preamble: Modern coders use collaborative version control software like GitHub. Workflows and interoperating between tools and software is really critical.</em></p>
+<!---
+*Add opening narratives/personas: you are running other people's scripts but need a workflow, you have your own data but don't know how to analyze it...*
+
 Recommendations: keep a diary, 
 - articulate your problem so you can google it
 - look for topics that are useful and recent, community vetted (trust)
@@ -178,15 +182,20 @@ Quotes:
 
 --->
 <hr />
-<div id="intro-coding" class="section level2">
-<h2><span class="header-section-number">3.1</span> Intro coding</h2>
+<div id="learn-a-new-language" class="section level2">
+<h2><span class="header-section-number">3.1</span> Learn a new language</h2>
 <p>Introductory tutorials will help you install software and get comfortable using it. They will also and help you develop the mindset to seek out existing code that works (including your own!) and adapt it for your analyses.</p>
+<!---There are often stereotypes about programming languages that --->
+<p>You want to learn:</p>
 <ul>
-<li>You want to learn R …<a href="rstats.html#r-intro">4.1</a><br />
+<li><strong>R</strong> …<a href="rstats.html#r-intro">4.1</a><br />
 </li>
-<li>You want to learn Python…<br />
-</li>
-<li>You want to learn Unix…<br />
+<li><strong>Python</strong>
+<ul>
+<li>with no previous coding experience… <a href="python.html#python-first">5.1</a></li>
+<li>with previous coding experience…<a href="python.html#python-second">5.2</a></li>
+</ul></li>
+<li><strong>The Command Line</strong>…<br />
 </li>
 <li>You are not sure or need to use multiple languages together…<a href="proj-mgmt.html#workflow-overview">10.1</a></li>
 </ul>
@@ -197,7 +206,7 @@ Quotes:
 <p>(single cell)</p>
 <ul>
 <li>You want to learn CellProfiler… <a href="https://cellprofiler.org/" class="uri">https://cellprofiler.org/</a></li>
-<li>You want to learn ImageJ… <a href="https://imagej.nih.gov/ij/" class="uri">https://imagej.nih.gov/ij/</a> <!---https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6---></li>
+<li>You want to learn ImageJ… <a href="https://imagej.net/Introduction" class="uri">https://imagej.net/Introduction</a> <!---https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6---></li>
 <li>You want to learn QuPath… <a href="https://qupath.github.io/" class="uri">https://qupath.github.io/</a></li>
 <li>You want to learn Napari… <a href="https://napari.org/tutorials/" class="uri">https://napari.org/tutorials/</a> - Nick Sofroniew
 <!---but right now if you're working in Python and doing image analysis you can get going from here---></li>

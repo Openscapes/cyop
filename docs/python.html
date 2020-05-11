@@ -24,7 +24,7 @@
 <meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-05-08" />
+<meta name="date" content="2020-05-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -77,7 +77,7 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i><b>2</b> Preface</a></li>
 <li class="chapter" data-level="3" data-path="what-to-learn.html"><a href="what-to-learn.html"><i class="fa fa-check"></i><b>3</b> What should I learn?</a><ul>
-<li class="chapter" data-level="3.1" data-path="what-to-learn.html"><a href="what-to-learn.html#intro-coding"><i class="fa fa-check"></i><b>3.1</b> Intro coding</a></li>
+<li class="chapter" data-level="3.1" data-path="what-to-learn.html"><a href="what-to-learn.html#learn-a-new-language"><i class="fa fa-check"></i><b>3.1</b> Learn a new language</a></li>
 <li class="chapter" data-level="3.2" data-path="what-to-learn.html"><a href="what-to-learn.html#image-analysis"><i class="fa fa-check"></i><b>3.2</b> Image analysis</a></li>
 <li class="chapter" data-level="3.3" data-path="what-to-learn.html"><a href="what-to-learn.html#rna-sequencing"><i class="fa fa-check"></i><b>3.3</b> RNA Sequencing</a></li>
 <li class="chapter" data-level="3.4" data-path="what-to-learn.html"><a href="what-to-learn.html#project-management-workflows"><i class="fa fa-check"></i><b>3.4</b> Project Management &amp; Workflows</a></li>
@@ -95,8 +95,8 @@
 <li class="chapter" data-level="4.5" data-path="rstats.html"><a href="rstats.html#rstats-ml"><i class="fa fa-check"></i><b>4.5</b> Machine Learning</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>5</b> Python</a><ul>
-<li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#intro-to-python-for-data-science"><i class="fa fa-check"></i><b>5.1</b> Intro to Python for data science</a></li>
-<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#intro-to-python-for-programming"><i class="fa fa-check"></i><b>5.2</b> Intro to Python for programming</a></li>
+<li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#python-first"><i class="fa fa-check"></i><b>5.1</b> Learning Python as a first language</a></li>
+<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-second"><i class="fa fa-check"></i><b>5.2</b> Learning Python as a second language</a></li>
 <li class="chapter" data-level="5.3" data-path="python.html"><a href="python.html#machine-learning"><i class="fa fa-check"></i><b>5.3</b> Machine Learning</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="command-line.html"><a href="command-line.html"><i class="fa fa-check"></i><b>6</b> The Command Line</a></li>
@@ -157,26 +157,47 @@
 <div id="python" class="section level1">
 <h1><span class="header-section-number">Chapter 5</span> Python</h1>
 <p><em>Preamble: python for data science or programming.</em>
-<!---You can execute scripts in Python but want to learn how to write Python---></p>
-<div id="intro-to-python-for-data-science" class="section level2">
-<h2><span class="header-section-number">5.1</span> Intro to Python for data science</h2>
-<!---check out https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition--->
+<!---You can execute scripts in Python but want to learn how to write Python
+There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
+---></p>
+<p><strong>Versions</strong>. Python had some upgrades between versions 2 and 3 in ~2010, and it’s important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A <a href="https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&amp;share=1">recommendation</a> is that if you’re learning Python to create your own new workflows, focus on Python 3, and if you’ll primarily be running older workflows, focus on Python 2. (See also <a href="https://link.springer.com/book/10.1007/978-3-662-49887-3">this discussion on page <em>vi</em></a>). Either way, the majority of your learning will be the same, but just keep these Versions in mind.</p>
+<div id="python-first" class="section level2">
+<h2><span class="header-section-number">5.1</span> Learning Python as a first language</h2>
+<ul>
+<li><a href="https://swcarpentry.github.io/python-novice-inflammation/index.html">Programming with Python</a> - Software Carpentry
+<ul>
+<li>Assumes no previous coding experience <!--- setup recommends using Anaconda Jupyter Notebook ---></li>
+<li>Python 3</li>
+</ul></li>
+</ul>
 </div>
-<div id="intro-to-python-for-programming" class="section level2">
-<h2><span class="header-section-number">5.2</span> Intro to Python for programming</h2>
+<div id="python-second" class="section level2">
+<h2><span class="header-section-number">5.2</span> Learning Python as a second language</h2>
+<ul>
+<li><a href="https://scipy-lectures.org/index.html">Scipy Lecture Notes</a> - Edited by Varoquaux et al. 
+<ul>
+<li>Assumes some familiarity with coding concepts</li>
+<li>Python 3</li>
+</ul></li>
+<li><a href="https://developers.google.com/edu/python/introduction">Python Introduction</a> - Google for Education
+<ul>
+<li>Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.<br />
+</li>
+<li>Python 2</li>
+</ul></li>
+</ul>
+<!---check out https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition--->
 <!---
 Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
 
 
-https://developers.google.com/edu/python 
-https://scipy-lectures.org/
 Udemy python
 https://github.com/wajra/python-workshop + associated videos! 
 https://github.com/cuttlefishh/python-for-data-analysis
 https://plotnine.readthedocs.io/en/stable/
 https://jakevdp.github.io/PythonDataScienceHandbook/
 https://datacarpentry.org/python-ecology-lesson/
-https://swcarpentry.github.io/python-novice-inflammation/index.html
+
 --->
 </div>
 <div id="machine-learning" class="section level2">

@@ -3,6 +3,13 @@
 *Preamble:*
 
 
+<!---
+## Single cell RNAseq analysis
+
+- [](https://colab.research.google.com/drive/1DhSLDv6qXiLFKkSXKUFRjCEK1V4kPy0a)
+  - walks through learning a metric embedding of scRNAseq data, where a model is trained on canonical single-cell RNAseq cell types and used to infer intermediary differentiation states
+--->
+
 ## Quantitative Methods in Genetics and Genomics Course
 - [Quantitative Methods in Genetics and Genomics Course](https://github.com/biom262/cmm262-2020) - Gene Yeo and others
   - Assumes...

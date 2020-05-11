@@ -7,3 +7,19 @@
 - not a comprehensive list of choices but some well-worn pathways
 - opinionated to limit choice (opinions by Lowndes and others — attribution identified)
 - written for scientists by scientists
+
+
+<!---  
+Further, analytical workflows can require multiple languages and software applications, for example one that includes using The Command Line (e.g. Unix) to run Python programs and manage files and also R for statistics and figures. These 
+there are often stereotypes about languages, like "R is for statistics", "Python is for programming", or "The Command Line is faster" which can lead to analytical pipelines that have  involved. 
+
+ with a lot of time spent file-shuffling and bookkeeping manually by you. 
+
+
+
+
+
+More concretely, if this workflow includes using Unix (Command Line) to run Python programs and manage files and also R to create figures with a lot of time spent file-shuffling and bookkeeping manually by you, this book will offer you to consider that from within R you can execute Command Line and Python functions in addition to making publication-ready graphics — all in a reproducible report that can be tracked by version-control software that also eases sharing with others.    — and that a first step might be to start calling the Command Line from R.The point is that you're not reinventing the wheel. So don't interpret this choose your own adventure as reinventing the wheel Allison. It does sound like a new thing. FRAMING 
+--->
+
+<!---## Streamlining workflows {#preface-streamline} --->
