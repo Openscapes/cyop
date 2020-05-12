@@ -1,0 +1,25 @@
+# ImageJ
+
+*Preamble: ImageJ for analysis of images with minimal coding.*
+
+ImageJ is a java based software developed by the NIH for image analysis. The FIJI version comes packaged with many plugins which allow for many common image analysis methods you may need. The main appeal of ImageJ over other software choices (like Python) is that it is approachable for people without any computer science experience while still being easy to write code for.
+
+<!---You haven't used ImageJ--->
+
+https://imagej.net/Introduction
+
+## ImageJ Macros
+
+Macros are a very easy way to generate scripts for image analysis in ImageJ with very minimal coding. They are usually written in a special ImageJ macro language which is like a simpler version of java. 
+
+https://imagej.nih.gov/ij/developer/macro/macros.html
+
+
+
+## ImageJ Plugins
+
+As the ImageJ Macro language is quite limited in the calculations it can perform itself, you may find that is unable to run the types of analysis you are trying to do (or that it does them very slowly). The way to remedy this is to write your own java plugin which adds functionality to ImageJ. This will require a decent familiarity with programming in java so you should become familiar with that language before attempting to write your own plugins. It is recommended to use Eclipse to easily develop your java code and to edit an existing plugin .jar file so that the maven packaging of the plugin is easier to manage. 
+
+https://www.youtube.com/watch?v=YIWpoBnnLio 
+
+This link is quite helpful with the one note that the example they use has an older version of the ImageJ API so I would recommend using a newer plugin like https://github.com/fiji/Skeletonize3D instead.
