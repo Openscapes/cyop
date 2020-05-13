@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 R | Choose youR own Pythway</title>
-  <meta name="description" content="Chapter 4 R | Choose youR own Pythway" />
+  <title>Chapter 7 ImageJ | Choose youR own Pythway</title>
+  <meta name="description" content="Chapter 7 ImageJ | Choose youR own Pythway" />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 R | Choose youR own Pythway" />
+  <meta property="og:title" content="Chapter 7 ImageJ | Choose youR own Pythway" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 R | Choose youR own Pythway" />
+  <meta name="twitter:title" content="Chapter 7 ImageJ | Choose youR own Pythway" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="what-to-learn.html"/>
-<link rel="next" href="python.html"/>
+<link rel="prev" href="command-line.html"/>
+<link rel="next" href="git-gh.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -159,87 +159,45 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="rstats" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> R</h1>
-<p><em>Preamble: thought of as just for statistics…Why do you want to learn R?</em></p>
-<!---I'm new to all of this. --->
-<p>Modern R users use RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (#rstats). <!---Tidyverse & RStudio airport---></p>
-<div id="r-intro" class="section level2">
-<h2><span class="header-section-number">4.1</span> Intro to R/RStudio for data science with the tidyverse</h2>
+<div id="imagej" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> ImageJ</h1>
+<p>ImageJ is software developed by the NIH for image analysis. The FIJI version comes packaged with many plugins which allow for many common image analysis methods you may need, and is the recommended version to use. The main appeal of ImageJ over other software choices (like Python) because it enables you to analyze images with minimal coding. From <a href="https://imagej.net/Welcome">the ImageJ homepage</a>:</p>
+<blockquote>
+<p>ImageJ is an open source image processing program designed for scientific multidimensional images. It is also highly extensible, with thousands of plugins and scripts for performing a wide variety of tasks, and a large user community.</p>
+</blockquote>
+<div id="imagej-intro" class="section level2">
+<h2><span class="header-section-number">7.1</span> Intro to ImageJ and FIJI</h2>
+<p>FIJI (“Fiji Is Just ImageJ”) is the <a href="https://imagej.net/ImageJ">recommended</a> version of ImageJ.</p>
 <ul>
-<li><a href="https://rstudio-conf-2020.github.io/r-for-excel/">R for Excel Users</a> - Julia Lowndes &amp; Allison Horst <!---lengths?--->
+<li><a href="https://imagej.net/Introduction">Intro to ImageJ</a> - ImageJ Team
 <ul>
-<li>Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration &amp; reproducibility.</li>
+<li>Assumes no previous experience. Links to Getting Started and Tutorials.</li>
 </ul></li>
-<li><a href="r4ds.had.co.nz/">R for Data Science</a> - Hadley Wickham &amp; Garrett Grolemund
-<ul>
-<li>THE go-to resource for all things tidyverse. Called R4DS for short.</li>
-<li>learn with the R4DS community…<a href="community.html#community-r4ds">12.2.2</a></li>
-</ul></li>
-<li><a href="https://education.rstudio.com/learn/beginner/">R Education for Beginners</a> - RStudio Education
-<!---
-R: tidyverse and tidy data. People start using R and haven’t heard of tidyverse, some people learn tidyverse and don’t know it
----></li>
 </ul>
-<!---
- Statistical modeling in R
- 
- http://faculty.marshall.usc.edu/gareth-james/ISL/
+</div>
+<div id="imagej-macros" class="section level2">
+<h2><span class="header-section-number">7.2</span> ImageJ Macros</h2>
+<p>Macros are a way to automate a series of ImageJ commands for image analysis in ImageJ with minimal coding. They are usually written in a special ImageJ macro language that is like a simpler version of Java. You can create a macro by recording a series of commands you make, and you can also reuse or remix hundreds of existing macros from the community.</p>
+<ul>
+<li><a href="https://imagej.nih.gov/ij/developer/macro/macros.html">ImageJ Macro Language</a> - ImageJ Team
+<ul>
+<li>Assumes no previous coding experience.</li>
+</ul></li>
+</ul>
+</div>
+<div id="imagej-plugins" class="section level2">
+<h2><span class="header-section-number">7.3</span> ImageJ Plugins</h2>
+<p>As the ImageJ Macro language is quite limited in the calculations it can perform itself, you may find that is unable to run the types of analysis you are trying to do (or that it does them very slowly). The way to remedy this is to write your own Java plugin which adds functionality to ImageJ.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=YIWpoBnnLio">How To Make Fiji Plugin</a> - ImageJ Fiji YouTube Channel
+<ul>
+<li>Assumes familiarity with Java. Recommended to use Eclipse to easily develop your Java code and to edit an existing plugin .jar file so that the maven packaging of the plugin is easier to manage.</li>
+<li>Note: this example uses an older version of the ImageJ API, so we recommend using a newer plugin like <a href="https://github.com/fiji/Skeletonize3D">Skeletonize3D</a> instead.</li>
+</ul></li>
+</ul>
+<!---OTHER CONSIDERATIONS
 
-### Intermediate R for data science
-
-- [R Education for Intermediate](https://education.rstudio.com/learn/intermediate/) - RStudio Education
-
---->
-</div>
-<div id="statistics-with-r" class="section level2">
-<h2><span class="header-section-number">4.2</span> Statistics with R</h2>
-<!--- Distinguish between prev experience ### You need to learn statistics and R ...--->
-<ul>
-<li><a href="https://www.edx.org/course/statistics-and-r">Statistics and R</a> - Rafael Irizarry &amp; Michael Love
-<ul>
-<li>Check out the follow-up courses from this series</li>
-</ul></li>
-<li><a href="https://allisonhorst.github.io/">Introduction to (environmental) data analysis &amp; stats in R</a> - Allison Horst
-<ul>
-<li>Assumes no previous experience with R or stats. Also teaches GitHub</li>
-</ul></li>
-<li><a href="https://allisonhorst.github.io/">Advanced methods for (environmental) data analysis in R</a> - Allison Horst
-<ul>
-<li>Assumes you’ve taken the previous course above</li>
-</ul></li>
-</ul>
-</div>
-<div id="rmarkdown" class="section level2">
-<h2><span class="header-section-number">4.3</span> RMarkdown</h2>
-<p><em>aka literate programming, notebooks, also for publishing</em></p>
-<ul>
-<li><a href="https://rmd4sci.njtierney.com/">RMarkdown for Scientists</a> - Nick Tierney
-<ul>
-<li>Assumes…</li>
-</ul></li>
-<li>Making websites in RMarkdown</li>
-</ul>
-</div>
-<div id="shiny" class="section level2">
-<h2><span class="header-section-number">4.4</span> Shiny</h2>
-<ul>
-<li><a href="https://mastering-shiny.org/">Mastering Shiny</a> - Hadley Wickham
-<ul>
-<li>Assumes…</li>
-</ul></li>
-<li><a href="https://deanattali.com/blog/advanced-shiny-tips/">Shiny tips &amp; tricks for improving your apps and solving common problems</a> - Dean Attali</li>
-</ul>
-</div>
-<div id="rstats-ml" class="section level2">
-<h2><span class="header-section-number">4.5</span> Machine Learning</h2>
-<ul>
-<li><a href="https://www.tidymodels.org/">tidymodels</a> by RStudio Education
-<ul>
-<li>Assumes…check out Ch X first</li>
-</ul></li>
-<li><a href="https://smltar.com/">Supervised Machine Learning for Text Analysis in R</a> by Emil Hvitfeldt and Julia Silge</li>
-</ul>
+https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
 
 </div>
 </div>
@@ -248,8 +206,8 @@ R: tidyverse and tidy data. People start using R and haven’t heard of tidyvers
           </div>
         </div>
       </div>
-<a href="what-to-learn.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="python.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="command-line.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="git-gh.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

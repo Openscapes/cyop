@@ -9,9 +9,10 @@ rmd_files: [
   "r.Rmd", 
   "python.Rmd",
   "command-line.Rmd",
+  "imagej.Rmd",
   "github.Rmd",
-  "workflows.Rmd",
   "ndcn-workflows.Rmd",
+  "workflows.Rmd",
   "proj-mgmt.Rmd",
   "community.Rmd",
   "scripts.Rmd"

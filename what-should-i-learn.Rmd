@@ -39,7 +39,6 @@ Introductory tutorials will help you install software and get comfortable using 
 
 You want to learn: 
 
-
 - **R** ...\@ref(r-intro)  
 - **Python**
   - with no previous coding experience... \@ref(python-first)
@@ -48,16 +47,19 @@ You want to learn:
 - You are not sure or need to use multiple languages together...\@ref(workflow-overview)  
 
 ## Image analysis 
-(create a separate chapter)
 
-(single cell)
+<!---(single cell)--->
 
-- You want to learn CellProfiler...  <https://cellprofiler.org/>
-- You want to learn ImageJ...  <https://imagej.net/Introduction> <!---https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
-- You want to learn QuPath...  <https://qupath.github.io/>
-- You want to learn Napari... <https://napari.org/tutorials/> - Nick Sofroniew
+You want to learn: 
+
+- **CellProfiler**...  <https://cellprofiler.org/>
+- **ImageJ**...
+  - with no previous coding experience...\@ref(imagej-intro)
+  - to write automated macros and plugins...\@ref(imagej-macros)
+- **QuPath**...  <https://qupath.github.io/>
+- **Napari**... <https://napari.org/tutorials/> - Nick Sofroniew
 <!---but right now if you're working in Python and doing image analysis you can get going from here--->
-- You want to use streamline your current workflow... <!--- with R/Python...--->
+<!--- - streamline your current workflow... --- with R/Python...--->
 
 ## RNA Sequencing
 

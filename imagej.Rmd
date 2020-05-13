@@ -1,25 +1,32 @@
-# ImageJ
+# ImageJ {#imagej}
 
-*Preamble: ImageJ for analysis of images with minimal coding.*
+ImageJ is software developed by the NIH for image analysis. The FIJI version comes packaged with many plugins which allow for many common image analysis methods you may need, and is the recommended version to use. The main appeal of ImageJ over other software choices (like Python) because it enables you to analyze images with minimal coding. From [the ImageJ homepage](https://imagej.net/Welcome): 
 
-ImageJ is a java based software developed by the NIH for image analysis. The FIJI version comes packaged with many plugins which allow for many common image analysis methods you may need. The main appeal of ImageJ over other software choices (like Python) is that it is approachable for people without any computer science experience while still being easy to write code for.
+> ImageJ is an open source image processing program designed for scientific multidimensional images. It is also highly extensible, with thousands of plugins and scripts for performing a wide variety of tasks, and a large user community.
 
-<!---You haven't used ImageJ--->
+## Intro to ImageJ and FIJI {#imagej-intro}
 
-https://imagej.net/Introduction
+FIJI ("Fiji Is Just ImageJ") is the [recommended](https://imagej.net/ImageJ) version of ImageJ. 
 
-## ImageJ Macros
+- [Intro to ImageJ](https://imagej.net/Introduction) - ImageJ Team
+  - Assumes no previous experience. Links to Getting Started and Tutorials.
 
-Macros are a very easy way to generate scripts for image analysis in ImageJ with very minimal coding. They are usually written in a special ImageJ macro language which is like a simpler version of java. 
+## ImageJ Macros {#imagej-macros}
 
-https://imagej.nih.gov/ij/developer/macro/macros.html
+Macros are a way to automate a series of ImageJ commands for image analysis in ImageJ with minimal coding. They are usually written in a special ImageJ macro language that is like a simpler version of Java. You can create a macro by recording a series of commands you make, and you can also reuse or remix hundreds of existing macros from the community. 
+
+- [ImageJ Macro Language](https://imagej.nih.gov/ij/developer/macro/macros.html) - ImageJ Team
+  - Assumes no previous coding experience.
+
+## ImageJ Plugins {#imagej-plugins}
+
+As the ImageJ Macro language is quite limited in the calculations it can perform itself, you may find that is unable to run the types of analysis you are trying to do (or that it does them very slowly). The way to remedy this is to write your own Java plugin which adds functionality to ImageJ. 
+
+- [How To Make Fiji Plugin](https://www.youtube.com/watch?v=YIWpoBnnLio) - ImageJ Fiji YouTube Channel
+  - Assumes familiarity with Java. Recommended to use Eclipse to easily develop your Java code and to edit an existing plugin .jar file so that the maven packaging of the plugin is easier to manage. 
+  - Note: this example uses an older version of the ImageJ API, so we recommend using a newer plugin like [Skeletonize3D](https://github.com/fiji/Skeletonize3D) instead.
 
 
+<!---OTHER CONSIDERATIONS
 
-## ImageJ Plugins
-
-As the ImageJ Macro language is quite limited in the calculations it can perform itself, you may find that is unable to run the types of analysis you are trying to do (or that it does them very slowly). The way to remedy this is to write your own java plugin which adds functionality to ImageJ. This will require a decent familiarity with programming in java so you should become familiar with that language before attempting to write your own plugins. It is recommended to use Eclipse to easily develop your java code and to edit an existing plugin .jar file so that the maven packaging of the plugin is easier to manage. 
-
-https://www.youtube.com/watch?v=YIWpoBnnLio 
-
-This link is quite helpful with the one note that the example they use has an older version of the ImageJ API so I would recommend using a newer plugin like https://github.com/fiji/Skeletonize3D instead.
+https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
