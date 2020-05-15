@@ -1,20 +1,28 @@
 # Workflows & pipelines {#workflows}
 
-*Preamble:*
-<!---Notebooks. Daily logs.
-https://github.com/pditommaso/awesome-pipeline
---->
+There are a lot of steps involved in computational analyses, and documenting those steps is really important for efficiency and reproducibility. Documentation can go along with code that automates these steps, and there are often opportunities to streamline how steps work together and how you as the user has to interoperate between software applications or languages. You can get inspired with this list of [awesome pipelines](https://github.com/pditommaso/awesome-pipeline). <!---from Mike Keiser--->
 
+All of this is critically important for Future You, who is the person most likely to build off of your own work. And let's also think about Future Us: the idea that someone different will need to understand this project someday (a future student, collaborator, peer-reviewer, boss). Creating documents that serve to "onboard" others to your workflows is a great thing to create, as well as creating a daily log or diary for yourself of what you've done and what steps are involved. 
 
+Talking about workflows with your direct collaborators as well as your colleagues is a big part of iteratively improving them — so you can focus more time on Science and less on bookkeeping by hand.
 
+## Documentation {#workflows-doc}
 
-## Documentation 
+Writing down a "recipe" of analytical steps *somewhere* is more important than how you do it — but it should be discoverable by you and your lab (including interns and visitors). Collaborative software like Google Docs, Box, Dropbox, GitHub, are a great place for this — and the more  even better if publicly available online for others to use. 
 
-https://www.protocols.io/
+- [Protocols.io](https://www.protocols.io/)
+  - An application to create, organize, edit, collaborate, and publish your lab's data and protocols.
+  - "Like Dryad for data or GitHub for code, protocols.io is a repository for protocols" 
 
+## Naming files {#workflows-naming}
+
+Naming files deliberately are a huge part of streamlining workflows. 
+
+- [How to name files](https://speakerdeck.com/jennybc/how-to-name-files) - Jenny Bryan
+  - short slide deck championing 3 filenaming principles
 
 
 ## SQL and R
 
 - [Using SQL in RStudio](https://irene.rbind.io/post/using-sql-in-rstudio/)
-  - Assumes you are already an R/RStudio user. For a refresher...Chapter \@ref(r-intro)
+  - Assumes you are already an R/RStudio user. For a refresher...\@ref(r-intro)

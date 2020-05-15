@@ -11,8 +11,8 @@ rmd_files: [
   "command-line.Rmd",
   "imagej.Rmd",
   "github.Rmd",
-  "ndcn-workflows.Rmd",
   "workflows.Rmd",
+  "ndcn-workflows.Rmd",
   "proj-mgmt.Rmd",
   "community.Rmd",
   "scripts.Rmd"

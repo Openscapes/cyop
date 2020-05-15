@@ -45,12 +45,16 @@ R: tidyverse and tidy data. People start using R and haven’t heard of tidyvers
 
 ## RMarkdown {#rmarkdown}
 
-*aka literate programming, notebooks, also for publishing*
+This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing. 
+
+- [RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
+  - Assumes no previous experience with RMarkdown, and has a showcase Gallery
 
 - [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
-  - Assumes...
+  - 3-hour lesson book 
   
-- Making websites in RMarkdown  
+- [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) - Julie Lowndes 
+  - 1-hour tutorial to make and publish a free website, no R required  
 
 ## Shiny
 

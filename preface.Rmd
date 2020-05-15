@@ -10,6 +10,8 @@
 
 
 <!---  
+Recurring theme: when would I have learned this?
+
 Further, analytical workflows can require multiple languages and software applications, for example one that includes using The Command Line (e.g. Unix) to run Python programs and manage files and also R for statistics and figures. These 
 there are often stereotypes about languages, like "R is for statistics", "Python is for programming", or "The Command Line is faster" which can lead to analytical pipelines that have  involved. 
 
