@@ -1,8 +1,10 @@
 # Python {#python}
 
-*Preamble: python for data science or programming.*
+Python is a powerful language for programming and data science and has wide use in scientific communities. The [Python Docs website](https://docs.python.org/3/) has links to news and resources, and their [Hitchhiker's guide to Python](https://docs.python-guide.org/) provides a nice overview and links to many [tutorials]( https://docs.python-guide.org/intro/learning/#beginner) sorted by beginner, intermediate, and advanced. 
+
 <!---You can execute scripts in Python but want to learn how to write Python
 There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
+
 --->
 
 **Versions**. Python had some upgrades between versions 2 and 3 in ~2010, and it's important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. (See also [this discussion on page *vi*](https://link.springer.com/book/10.1007/978-3-662-49887-3)). Either way, the majority of your learning will be the same, but just keep these Versions in mind.
@@ -13,8 +15,21 @@ There can be a difference in mindset between programming and working with data (
   - Assumes no previous coding experience <!--- setup recommends using Anaconda Jupyter Notebook --->
   - Python 3
 
+- [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake VanderPlas
+  - Says it assumes familiarity with programming in another language, but is a nice overview for any beginner, and "particularly designed for those who wish to use Python for data science and/or scientific programming
+  - Serves as an introduction to his longer book (listed next):
+  
+- [The Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake VanderPlas
+  - Says it assumes familiarity with programming in another language, but a nice start for any beginner
+  - Setup available to run code in Jupyter Notebooks and Google Collab
+  - Python 3
+  
+- [Python for Data Analysis](https://github.com/cuttlefishh/python-for-data-analysis) - Luke Thompson
+  - Assumes no previous experience coding. [Numbered lessons](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule) also include intro to the command line.
+
 ## Learning Python as a second language {#python-second}
-- [Scipy Lecture Notes](https://scipy-lectures.org/index.html) - Edited by Varoquaux et al. 
+
+- [Scipy Lecture Notes](https://scipy-lectures.org/index.html) - Edited by Varoquaux et al.
   - Assumes some familiarity with coding concepts
   - Python 3
 
@@ -22,18 +37,13 @@ There can be a difference in mindset between programming and working with data (
   - Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.  
   - Python 2
 
-<!---check out https://github.com/PacktPublishing/Pandas-Cookbook-Second-Edition--->
-
 
 <!---
 Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
 
 
-Udemy python
 https://github.com/wajra/python-workshop + associated videos! 
 https://github.com/cuttlefishh/python-for-data-analysis
-https://plotnine.readthedocs.io/en/stable/
-https://jakevdp.github.io/PythonDataScienceHandbook/
 https://datacarpentry.org/python-ecology-lesson/
 
 --->

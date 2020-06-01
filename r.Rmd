@@ -2,7 +2,13 @@
 
 *Preamble: thought of as just for statistics...Why do you want to learn R?*
 
-<!---I'm new to all of this. --->
+<!---I'm new to all of this.
+
+https://twitter.com/ProfMattFox/status/1262013644306595840?s=20
+https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/
+https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/
+https://kdestasio.github.io/post/r_best_practices/, also could go in workflows
+--->
 
 
 
@@ -37,6 +43,7 @@ R: tidyverse and tidy data. People start using R and haven’t heard of tidyvers
 
 - [Statistics and R](https://www.edx.org/course/statistics-and-r) - Rafael Irizarry & Michael Love
   - Check out the follow-up courses from this series
+- [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html) - Susan Holmes & Wolfgang Huber  
 - [Introduction to (environmental) data analysis & stats in R](https://allisonhorst.github.io/) - Allison Horst
   - Assumes no previous experience with R or stats. Also teaches GitHub
 - [Advanced methods for (environmental) data analysis in R](https://allisonhorst.github.io/) - Allison Horst
@@ -47,7 +54,7 @@ R: tidyverse and tidy data. People start using R and haven’t heard of tidyvers
 
 This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing. 
 
-- [RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
+- [RStudio's RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
   - Assumes no previous experience with RMarkdown, and has a showcase Gallery
 - [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
   - 3-hour lesson book 
@@ -55,6 +62,7 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
   - Assumes familiarity with RMarkdown and describes "the progression of stages between a single ad-hoc RMarkdown script and more advanced and reusable data products like R projects and packages."
 - [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) - Julie Lowndes 
   - 1-hour tutorial to make and publish a free website, no R required  
+- [How I teach RMarkdown](https://alison.rbind.io/post/2020-05-28-how-i-teach-r-markdown/) - Alison Hill
 
 ## Shiny
 
