@@ -15,7 +15,7 @@ Modern R users use RStudio. RStudio provides a software interface (called the ID
 
 ## Intro to R/RStudio for data science with the tidyverse {#r-intro}
 
--   [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst <!---lengths?--->
+-   [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst
 
     -   Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
 
@@ -31,18 +31,6 @@ Modern R users use RStudio. RStudio provides a software interface (called the ID
 R: tidyverse and tidy data. People start using R and haven’t heard of tidyverse, some people learn tidyverse and don’t know it
 
 https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/
---->
-```
-```{=html}
-<!---
- Statistical modeling in R
- 
- http://faculty.marshall.usc.edu/gareth-james/ISL/
-
-### Intermediate R for data science
-
-- [R Education for Intermediate](https://education.rstudio.com/learn/intermediate/) - RStudio Education
-
 --->
 ```
 ## Statistics with R
@@ -63,6 +51,19 @@ https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/
 
     -   Assumes you've taken the previous course above
 
+```{=html}
+<!---
+
+Statistical modeling in R
+
+<http://faculty.marshall.usc.edu/gareth-james/ISL/>
+
+\#\#\# Intermediate R for data science
+
+\- [R Education for Intermediate](%5Bhttps://education.rstudio.com/learn/intermediate/)](<https://education.rstudio.com/learn/intermediate/>)) - RStudio Education
+
+--->
+```
 ## RMarkdown {#rmarkdown}
 
 This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing.
