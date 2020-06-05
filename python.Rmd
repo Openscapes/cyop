@@ -5,6 +5,15 @@ Python is a powerful language for programming and data science and has wide use 
 <!---You can execute scripts in Python but want to learn how to write Python
 There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
 
+https://testerstories.com/2018/01/testers-and-data-science-part-1/
+
+Other reticulate resources: 
+also watch this video: https://docs.rstudio.com/tutorials/user/using-python-with-rstudio-and-reticulate/)
+Less-helpful: https://support.rstudio.com/hc/en-us/articles/360023654474-Installing-and-Configuring-Python-with-RStudio
+Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lecture 15
+ 
+
+
 --->
 
 **Versions**. Python had some upgrades between versions 2 and 3 in ~2010, and it's important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. (See also [this discussion on page *vi*](https://link.springer.com/book/10.1007/978-3-662-49887-3)). Either way, the majority of your learning will be the same, but just keep these Versions in mind.
