@@ -12,17 +12,18 @@ description: ""
 
 # Welcome {#welcome}
 
-Hello! This book aims to empower scientists with resources to use to learn computational and open data science skills. Often, it is hard to even know which skills you need! This book's "choose your own pathway" style invites you to choose an intentional and well-worn path rather than creating one from scratch. 
+Hello! This book aims to empower scientists with resources to use to learn computational and open data science skills. Often, it is hard to even know which skills you need! This book's "choose your own pathway" style invites you to choose an intentional and well-worn path rather than creating one from scratch.
 
 This book is not an exhaustive list of skill-building resources available but is highly curated, [opinionated](https://peerj.com/preprints/3210/), and increasingly narrated to meet the needs of scientists that are new to coding and/or those looking to upgrade existing workflows. It is set up in a style that in ecology we call a "dicotomous key", where depending to your answer to a prompt, you take yourself to a different part of the book. Resources center around open source languages and reproducible, collaborative workflows, including R, Python, Unix, and GitHub.
 
+```{=html}
 <!---
 
 --->
-
+```
 ## How to use this book
 
-Use this book to help create your learning plan to setup new analytical workflows and/or streamline existing ones. It will direct you to existing tutorials, communities, or scripts for each step, encouraging you to think deliberately along the way so that you can incrementally improve your skills and workflows. For example, if your current workflow requires multiple software interfaces and languages, this book will challenge you to think about whether you should focus on learning a new language or software, or on streamlining how languages or software interoperate. The theme is to reduce friction as much as possible, so you can focus on science. 
+Use this book to help create your learning plan to setup new analytical workflows and/or streamline existing ones. It will direct you to existing tutorials, communities, or scripts for each step, encouraging you to think deliberately along the way so that you can incrementally improve your skills and workflows. For example, if your current workflow requires multiple software interfaces and languages, this book will challenge you to think about whether you should focus on learning a new language or software, or on streamlining how languages or software interoperate. The theme is to reduce friction as much as possible, so you can focus on science.
 
 While you can use this book alone, it is much better to learn together (see Chapter \@ref(community)!). Start with a colleague/friend; you can be "accountability buddies" for each other while you choose you own pathways together, and you can continue to be even as your paths diverge.
 
@@ -30,29 +31,25 @@ Read more in the Preface in Chapter \@ref(preface) and then go to Chapter \@ref(
 
 ## About
 
-We are developing this book specifically to meet the needs of biomedical scientists who are part of [CZI](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) — but it is designed for wide use across research domains. It is led, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of NDCN contributors, including you. <!---supported by CZI--->
-Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
-
+We are developing this book specifically to meet the needs of biomedical scientists who are part of [CZI](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) --- but it is designed for wide use across research domains. It is led, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of NDCN contributors, including you. <!---supported by CZI---> Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
 
 Contributors include:
 
-- NDCN Computational Advisors
-- NDCN Office Hours participants
-- Justin Savage
-
+-   NDCN Computational Advisors
+-   NDCN Office Hours participants
+-   Justin Savage
 
 ## Contributing
 
-This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help us improve! Do you have an idea for resources, improvements on text, or a better title for the book? (This book's title is really not great. It aims to give the reader a sense of participation — without infringing on copyright — and a sense of R and Python.)
+This imperfect and incomplete book is a work in progress. But it is available openly as a resource while it is iteratively improved. Please help us improve! Do you have an idea for resources, improvements on text, or a better title for the book? (This book's title is really not great. It aims to give the reader a sense of participation --- without infringing on copyright --- and a sense of R and Python.)
 
 We welcome contributions: please edit the book or share resources that have helped you via [email](mailto:openscapes@nceas.ucsb.edu) or [GitHub](https://github.com/openscapes/cyop). We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework and audience needs.
 
-----
+------------------------------------------------------------------------
 
-<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by/4.0/88x31.png' /></a>&nbsp;&nbsp;This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
+<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png){style="border-width:0"}</a> This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
 
-
-
+```{=html}
 <!---
 https://github.com/rstudio/bookdown-demo/blob/master/01-intro.Rmd: 
 
@@ -66,6 +63,8 @@ Do you know why?
 - Python (go to Ch Y)
 - Unix (go to 
 --->
+```
+```{=html}
 <!---
 
 Hello! This is a course taught by Dr. Julie Stewart Lowndes and Dr. Allison Horst at the RStudio Conference: January 27-28 in San Francisco, California. 
@@ -81,3 +80,4 @@ This book is written to be used as a reference, to teach, or as self-paced learn
 
 
 --->
+```

@@ -1,8 +1,8 @@
 # Git/GitHub {#git-gh}
 
-Git is powerful software that tracks files on your local computer and takes care of the versioning (line-by-line!) and bookkeeping that you might otherwise do yourself, for example with filenames like `analysis_final_v3.R`. GitHub is an online platform that socializes Git's versioning capabilities, archiving your files online and enabling you to share and collaborate with others, and also opens a whole world of publishing. 
+Git is powerful software that tracks files on your local computer and takes care of the versioning (line-by-line!) and bookkeeping that you might otherwise do yourself, for example with filenames like `analysis_final_v3.R`. GitHub is an online platform that socializes Git's versioning capabilities, archiving your files online and enabling you to share and collaborate with others, and also opens a whole world of publishing.
 
-Git and GitHub were not designed for scientists as primary users, so there are a lot of powerful features (branches, pull requests) that might not be immediately useful for scientists just getting started. And that's okay! Interacting with GitHub from the browser is a fine way to start.  
+Git and GitHub were not designed for scientists as primary users, so there are a lot of powerful features (branches, pull requests) that might not be immediately useful for scientists just getting started. And that's okay! Interacting with GitHub from the browser is a fine way to start.
 
 *Preamble: IDEs vs command line, not branches, etc*
 
@@ -12,22 +12,28 @@ Git and GitHub were not designed for scientists as primary users, so there are a
 
 There are several ways to interact with Git and GitHub from your computer, allowing folks to use what they are most comfortable with and/or already using in their workflows.
 
-- [GitHub from the Browser](https://docs.google.com/presentation/d/1bTaLmR4sQAbGcEML-gQPb8PAJXR7QcMGzwCIuumCkFc/edit#slide=id.p) - Julie Lowndes, NDCN Office Hours
-  - 20-minute overview and first hands-on experience from the browser (recommended as an empowering, collaborative first experience, but not for computational workflows)
-- [GitHub Application](https://desktop.github.com/) - GitHub
-  - Software (GUI interface) for Mac, Windows, etc
-- GitHub from the Command Line  
-- [GitHub with RStudio](https://rstudio-conf-2020.github.io/r-for-excel/github) - Julia Lowndes & Allison Horst, R for Excel Users
+-   [GitHub from the Browser](https://docs.google.com/presentation/d/1bTaLmR4sQAbGcEML-gQPb8PAJXR7QcMGzwCIuumCkFc/edit#slide=id.p) - Julie Lowndes, NDCN Office Hours
 
+    -   20-minute overview and first hands-on experience from the browser (recommended as an empowering, collaborative first experience, but not for computational workflows)
+
+-   [GitHub Application](https://desktop.github.com/) - GitHub
+
+    -   Software (GUI interface) for Mac, Windows, etc
+
+-   GitHub from the Command Line\
+
+-   [GitHub with RStudio](https://rstudio-conf-2020.github.io/r-for-excel/github) - Julia Lowndes & Allison Horst, R for Excel Users
 
 ## Fixing mistakes {#gh-fix}
 
-- [GitHub: A beginner's guide to going back in time (aka fixing mistakes)](https://ohi-science.org/news/github-going-back-in-time) - Melanie Frazier
+-   [GitHub: A beginner's guide to going back in time (aka fixing mistakes)](https://ohi-science.org/news/github-going-back-in-time) - Melanie Frazier
 
+## GitHub Issues {#gh-issues}
 
-## GitHub Issues {#gh-issues} 
+-   [GitHub for project management](https://openscapes.github.io/series/github-issues.html) - Julie Lowndes, Openscapes
 
-- [GitHub for project management](https://openscapes.github.io/series/github-issues.html) - Julie Lowndes, Openscapes
-  - Assumes no previous experience or installation; based in the web browser
-- [GitHub for publishing](https://openscapes.github.io/series/github-pub.html) - Julie Lowndes, Openscapes
-  - Assumes no previous experience or installation; based in the web browser
+    -   Assumes no previous experience or installation; based in the web browser
+
+-   [GitHub for publishing](https://openscapes.github.io/series/github-pub.html) - Julie Lowndes, Openscapes
+
+    -   Assumes no previous experience or installation; based in the web browser

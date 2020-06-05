@@ -2,6 +2,7 @@
 
 *Preamble: thought of as just for statistics...Why do you want to learn R?*
 
+```{=html}
 <!---I'm new to all of this.
 
 https://twitter.com/ProfMattFox/status/1262013644306595840?s=20
@@ -9,23 +10,30 @@ https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-
 https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/
 https://kdestasio.github.io/post/r_best_practices/, also could go in workflows
 --->
-
-
-
-Modern R users use RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (#rstats). <!---Tidyverse & RStudio airport--->
+```
+Modern R users use RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (\#rstats). <!---Tidyverse & RStudio airport--->
 
 ## Intro to R/RStudio for data science with the tidyverse {#r-intro}
-- [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst <!---lengths?--->
-  - Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
-- [R for Data Science](r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
-  - THE go-to resource for all things tidyverse. Called R4DS for short.
-  - learn with the R4DS community...\@ref(community-r4ds)
-- [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
+
+-   [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst <!---lengths?--->
+
+    -   Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
+
+-   [R for Data Science](r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
+
+    -   THE go-to resource for all things tidyverse. Called R4DS for short.
+    -   learn with the R4DS community...\@ref(community-r4ds)
+
+-   [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
+
+```{=html}
 <!---
 R: tidyverse and tidy data. People start using R and haven’t heard of tidyverse, some people learn tidyverse and don’t know it
+
+https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/
 --->
-
-
+```
+```{=html}
 <!---
  Statistical modeling in R
  
@@ -36,44 +44,61 @@ R: tidyverse and tidy data. People start using R and haven’t heard of tidyvers
 - [R Education for Intermediate](https://education.rstudio.com/learn/intermediate/) - RStudio Education
 
 --->
-
+```
 ## Statistics with R
 
 <!--- Distinguish between prev experience ### You need to learn statistics and R ...--->
 
-- [Statistics and R](https://www.edx.org/course/statistics-and-r) - Rafael Irizarry & Michael Love
-  - Check out the follow-up courses from this series
-- [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html) - Susan Holmes & Wolfgang Huber  
-- [Introduction to (environmental) data analysis & stats in R](https://allisonhorst.github.io/) - Allison Horst
-  - Assumes no previous experience with R or stats. Also teaches GitHub
-- [Advanced methods for (environmental) data analysis in R](https://allisonhorst.github.io/) - Allison Horst
-  - Assumes you've taken the previous course above
+-   [Statistics and R](https://www.edx.org/course/statistics-and-r) - Rafael Irizarry & Michael Love
 
+    -   Check out the follow-up courses from this series
+
+-   [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html) - Susan Holmes & Wolfgang Huber\
+
+-   [Introduction to (environmental) data analysis & stats in R](https://allisonhorst.github.io/) - Allison Horst
+
+    -   Assumes no previous experience with R or stats. Also teaches GitHub
+
+-   [Advanced methods for (environmental) data analysis in R](https://allisonhorst.github.io/) - Allison Horst
+
+    -   Assumes you've taken the previous course above
 
 ## RMarkdown {#rmarkdown}
 
-This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing. 
+This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing.
 
-- [RStudio's RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
-  - Assumes no previous experience with RMarkdown, and has a showcase Gallery
-- [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
-  - 3-hour lesson book 
-- [RMarkdown Driven Development](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/) - Emily Riederer
-  - Assumes familiarity with RMarkdown and describes "the progression of stages between a single ad-hoc RMarkdown script and more advanced and reusable data products like R projects and packages."
-- [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) - Julie Lowndes 
-  - 1-hour tutorial to make and publish a free website, no R required  
-- [How I teach RMarkdown](https://alison.rbind.io/post/2020-05-28-how-i-teach-r-markdown/) - Alison Hill
+-   [RStudio's RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
+
+    -   Assumes no previous experience with RMarkdown, and has a showcase Gallery
+
+-   [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
+
+    -   3-hour lesson book
+
+-   [RMarkdown Driven Development](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/) - Emily Riederer
+
+    -   Assumes familiarity with RMarkdown and describes "the progression of stages between a single ad-hoc RMarkdown script and more advanced and reusable data products like R projects and packages."
+
+-   [Making free websites with RStudio's R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) - Julie Lowndes
+
+    -   1-hour tutorial to make and publish a free website, no R required\
+
+-   [How I teach RMarkdown](https://alison.rbind.io/post/2020-05-28-how-i-teach-r-markdown/) - Alison Hill
+
+<!---https://twitter.com/apreshill/status/1266424498028310528?s=19--->
 
 ## Shiny
 
-- [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham
-  - Assumes...
-- [Shiny tips & tricks for improving your apps and solving common problems](https://deanattali.com/blog/advanced-shiny-tips/) - Dean Attali
+-   [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham
 
+    -   Assumes...
+
+-   [Shiny tips & tricks for improving your apps and solving common problems](https://deanattali.com/blog/advanced-shiny-tips/) - Dean Attali
 
 ## Machine Learning {#rstats-ml}
 
-- [tidymodels](https://www.tidymodels.org/) by RStudio Education
-  - Assumes...check out Ch X first
-- [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
+-   [tidymodels](https://www.tidymodels.org/) by RStudio Education
 
+    -   Assumes...check out Ch X first
+
+-   [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
