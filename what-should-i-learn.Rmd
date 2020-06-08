@@ -37,14 +37,12 @@ Introductory tutorials will help you install software and get comfortable using 
 
 <!---There are often stereotypes about programming languages that --->
 
-To get a sense of coding in Python...\@ref(python-sense)
-
 You want to learn: 
 
 - **R** ...\@ref(r-intro)  
 - **Python**
-  - with no previous coding experience... \@ref(python-first)
-  - with previous coding experience...\@ref(python-second) 
+  - to get a sense of coding in Python...\@ref(python-sense)
+  - to learn Python...\@ref(python-learn) 
 - **The Command Line**...  
 - You are not sure or need to use multiple languages together...\@ref(workflow-overview)  
 

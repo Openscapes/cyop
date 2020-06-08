@@ -24,7 +24,7 @@
 <meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-06-05" />
+<meta name="date" content="2020-06-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,9 +97,8 @@
 </ul></li>
 <li class="chapter" data-level="5" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>5</b> Python</a><ul>
 <li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#python-sense"><i class="fa fa-check"></i><b>5.1</b> Getting a sense of Python</a></li>
-<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-first"><i class="fa fa-check"></i><b>5.2</b> Learning Python as a first language</a></li>
-<li class="chapter" data-level="5.3" data-path="python.html"><a href="python.html#python-second"><i class="fa fa-check"></i><b>5.3</b> Learning Python as a second language</a></li>
-<li class="chapter" data-level="5.4" data-path="python.html"><a href="python.html#machine-learning"><i class="fa fa-check"></i><b>5.4</b> Machine Learning</a></li>
+<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-learn"><i class="fa fa-check"></i><b>5.2</b> Learning Python</a></li>
+<li class="chapter" data-level="5.3" data-path="python.html"><a href="python.html#machine-learning"><i class="fa fa-check"></i><b>5.3</b> Machine Learning</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="command-line.html"><a href="command-line.html"><i class="fa fa-check"></i><b>6</b> The Command Line</a></li>
 <li class="chapter" data-level="7" data-path="imagej.html"><a href="imagej.html"><i class="fa fa-check"></i><b>7</b> ImageJ</a><ul>
@@ -166,6 +165,7 @@
 <div id="python" class="section level1">
 <h1><span class="header-section-number">Chapter 5</span> Python</h1>
 <p>Python is a powerful language for programming and data science and has wide use in scientific communities. The <a href="https://docs.python.org/3/">Python Docs website</a> has links to news and resources, and their <a href="https://docs.python-guide.org/">Hitchhiker’s guide to Python</a> provides a nice overview and links to many <a href="https://docs.python-guide.org/intro/learning/#beginner">tutorials</a> sorted by beginner, intermediate, and advanced.</p>
+<p><strong>Versions</strong>. Python had some upgrades between versions 2 and 3 in ~2010, and it’s important to keep this in mind as you learn. A <a href="https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&amp;share=1">recommendation</a> is that if you’re learning Python to create your own new workflows, focus on Python 3, and if you’ll primarily be running older workflows, focus on Python 2. Either way, the majority of your learning will be the same.</p>
 <div id="python-sense" class="section level2">
 <h2><span class="header-section-number">5.1</span> Getting a sense of Python</h2>
 <p>Reading blog posts are also a good way for getting a sense of Python, and you can follow along with many hands-on.</p>
@@ -189,14 +189,13 @@ Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lectur
 
 
 --->
-<p><strong>Versions</strong>. Python had some upgrades between versions 2 and 3 in ~2010, and it’s important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A <a href="https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&amp;share=1">recommendation</a> is that if you’re learning Python to create your own new workflows, focus on Python 3, and if you’ll primarily be running older workflows, focus on Python 2. (See also <a href="https://link.springer.com/book/10.1007/978-3-662-49887-3">this discussion on page <em>vi</em></a>). Either way, the majority of your learning will be the same, but just keep these Versions in mind.</p>
 </div>
-<div id="python-first" class="section level2">
-<h2><span class="header-section-number">5.2</span> Learning Python as a first language</h2>
+<div id="python-learn" class="section level2">
+<h2><span class="header-section-number">5.2</span> Learning Python</h2>
 <ul>
 <li><p><a href="https://swcarpentry.github.io/python-novice-inflammation/index.html">Programming with Python</a> - Software Carpentry</p>
 <ul>
-<li>Assumes no previous coding experience <!--- setup recommends using Anaconda Jupyter Notebook ---></li>
+<li>Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks</li>
 <li>Python 3</li>
 </ul></li>
 <li><p><a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python</a> - Jake VanderPlas</p>
@@ -214,11 +213,6 @@ Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lectur
 <ul>
 <li>Assumes no previous experience coding. <a href="https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule">Numbered lessons</a> also include intro to the command line.</li>
 </ul></li>
-</ul>
-</div>
-<div id="python-second" class="section level2">
-<h2><span class="header-section-number">5.3</span> Learning Python as a second language</h2>
-<ul>
 <li><p><a href="https://scipy-lectures.org/index.html">Scipy Lecture Notes</a> - Edited by Varoquaux et al.</p>
 <ul>
 <li>Assumes some familiarity with coding concepts</li>
@@ -226,8 +220,7 @@ Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lectur
 </ul></li>
 <li><p><a href="https://developers.google.com/edu/python/introduction">Python Introduction</a> - Google for Education</p>
 <ul>
-<li>Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.<br />
-</li>
+<li>Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.</li>
 <li>Python 2</li>
 </ul></li>
 </ul>
@@ -242,7 +235,7 @@ https://datacarpentry.org/python-ecology-lesson/
 --->
 </div>
 <div id="machine-learning" class="section level2">
-<h2><span class="header-section-number">5.4</span> Machine Learning</h2>
+<h2><span class="header-section-number">5.3</span> Machine Learning</h2>
 <ul>
 <li><a href="https://www.coursera.org/learn/machine-learning-duke">Introduction to Machine Learning</a> - Lawrence Carin, Coursera</li>
 </ul>

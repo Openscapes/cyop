@@ -38,6 +38,7 @@ Contributors include:
 -   NDCN Computational Advisors
 -   NDCN Office Hours participants
 -   Justin Savage
+-   Oliver Tam
 
 ## Contributing
 
