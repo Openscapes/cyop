@@ -50,35 +50,3 @@ We welcome contributions: please edit the book or share resources that have help
 
 <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png){style="border-width:0"}</a> This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
 
-```{=html}
-<!---
-https://github.com/rstudio/bookdown-demo/blob/master/01-intro.Rmd: 
-
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-
-
-Do you want to learn R or Python? 
-Do you know why? 
-
-- R (go to Ch. Y)
-- Python (go to Ch Y)
-- Unix (go to 
---->
-```
-```{=html}
-<!---
-
-Hello! This is a course taught by Dr. Julie Stewart Lowndes and Dr. Allison Horst at the RStudio Conference: January 27-28 in San Francisco, California. 
-
-This course is for Excel users who want to add or integrate R and RStudio into their existing data analysis toolkit. It is a friendly intro to becoming a modern R user, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility. 
-
-
-This book is written to be used as a reference, to teach, or as self-paced learning. And also, awesomely, it’s created with the same tools and practices we will be talking about: R and RStudio — specifically [bookdown](https://bookdown.org/yihui/bookdown/) — and GitHub. It is being fine-tuned but the most recent version is always available: 
-
-**This book**: <https://rstudio-conf-2020.github.io/r-for-excel/>  
-**Book GitHub repo**: <https://github.com/rstudio-conf-2020/r-for-excel>  
-**Accompanying slides**: [Google Slides](https://docs.google.com/presentation/d/1w9cVzEsdbyZ6vay4UnoTvTWd9t-AO_x06HoVzgAiSFE/edit?usp=sharing)  
-
-
---->
-```

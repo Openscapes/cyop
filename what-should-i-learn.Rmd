@@ -16,35 +16,31 @@ to help you as a researcher identify which skills you need to develop and be del
 
 Different learner styles, more directed self-taught less wasted time and wheels reinvented.
 
-<!---We've often never had these conversations and this book tries to provide an opportunity.
+We've often never had these conversations and this book tries to provide an opportunity.
 
 Quotes: 
 - " Part of learning how to be an effective computational biologist is to learn how to learn efficiently."
 - "I think it’s really hard for new people to jump in. The learning curves can be steep, and it’s hard for them to judge how much should they expect "
 
-
-
-reproducible research in action
-https://www.practicereproducibleresearch.org/TOC.html
-
 --->
-
-
 
 ---
 ## Learn a new language
 Introductory tutorials will help you install software and get comfortable using it. They will also and help you develop the mindset to seek out existing code that works (including your own!) and adapt it for your analyses. 
 
-<!---There are often stereotypes about programming languages that --->
+<!---- You are not sure or need to use multiple languages together...\@ref(workflow-overview)  --->
 
 You want to learn: 
 
-- **R** ...\@ref(r-intro)  
+- **R** 
+  - to get a sense of coding in R...\@ref(rstats-sense)
+  - to learn R...\@ref(rstats-intro)  
 - **Python**
   - to get a sense of coding in Python...\@ref(python-sense)
   - to learn Python...\@ref(python-learn) 
 - **The Command Line**...  
-- You are not sure or need to use multiple languages together...\@ref(workflow-overview)  
+
+
 
 ## Image analysis 
 
@@ -58,8 +54,6 @@ You want to learn:
   - to write automated macros and plugins...\@ref(imagej-macros)
 - **QuPath**...  <https://qupath.github.io/>
 - **Napari**... <https://napari.org/tutorials/> - Nick Sofroniew
-<!---but right now if you're working in Python and doing image analysis you can get going from here--->
-<!--- - streamline your current workflow... --- with R/Python...--->
 
 ## RNA Sequencing
 

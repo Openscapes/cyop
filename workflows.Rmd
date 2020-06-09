@@ -23,6 +23,12 @@ Naming files deliberately are a huge part of streamlining workflows.
 
     -   short slide deck championing 3 filenaming principles
 
+## Reproducible research in action {#repro-research}
+
+- [The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences](https://www.practicereproducibleresearch.org) - Justin Kitzes, Daniel Turek, Fatma Deniz (Editors)
+  - Examples highlighting R, Python, open science, cloud computing, neuroimaging, and more
+
+
 ## SQL and R
 
 -   [Using SQL in RStudio](https://irene.rbind.io/post/using-sql-in-rstudio/)

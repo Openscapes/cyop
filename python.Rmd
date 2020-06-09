@@ -12,23 +12,6 @@ Reading blog posts are also a good way for getting a sense of Python, and you ca
   - 4-part blog describing considerations for data science; you can follow hands-on with Python from Jupyter notebooks
   - Python 3
 
-```{=html}
-<!---You can execute scripts in Python but want to learn how to write Python
-There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
-
-
-
-Other reticulate resources: 
-also watch this video: https://docs.rstudio.com/tutorials/user/using-python-with-rstudio-and-reticulate/)
-Less-helpful: https://support.rstudio.com/hc/en-us/articles/360023654474-Installing-and-Configuring-Python-with-RStudio
-Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lecture 15
- 
-
-
---->
-```
-
-
 ## Learning Python {#python-learn}
 
 -   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry
@@ -59,26 +42,10 @@ Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lectur
     -   Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.
     -   Python 2
 
-```{=html}
-<!---
-Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
 
-
-https://github.com/wajra/python-workshop + associated videos! 
-https://github.com/cuttlefishh/python-for-data-analysis
-https://datacarpentry.org/python-ecology-lesson/
-
---->
-```
 ## Machine Learning
 
 -   [Introduction to Machine Learning](https://www.coursera.org/learn/machine-learning-duke) - Lawrence Carin, Coursera
-
-```{=html}
-<!---
-^was pretty short and conceptual, the coding assignments could use more work and support. Good for going from zero to a good conceptual understanding in a short period of time. (Many machine learning algorithms can be used like a function so this may be all you need to apply existing networks to your data)
-
-Roman: i’m taking a EdX course incl bioconductor
-Really nice: not about implementing stats but instead understanding the concepts behind. Simulations to understand pvalues. (which course?)
---->
-```
+    - This course will "provide you a foundational understanding of machine learning models (logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc.) as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction."
+    
+    
