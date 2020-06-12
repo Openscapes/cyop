@@ -11,6 +11,8 @@ Reading blog posts are also a good way for getting a sense of Python, and you ca
 - [Testers and Data Science](https://testerstories.com/2018/01/testers-and-data-science-part-1/) - Jeff Nyman
   - 4-part blog describing considerations for data science; you can follow hands-on with Python from Jupyter notebooks
   - Python 3
+- [Python Recipe: Open a file, read it, print matching lines](https://palewi.re/posts/2008/04/05/python-recipe-open-a-file-read-through-it-print-each-line-matching-a-search-term/) - Ben Welsh
+  - Nice narrative with minimal code describing wanting to search for a pattern in a file and save the search results
 
 ## Learning Python {#python-learn}
 
