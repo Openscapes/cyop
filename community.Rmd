@@ -45,6 +45,16 @@ R for Data Science Online Learning Community. For learners ("Develop your skills
 
 <!---researchgate chelsey--->
 
+## Image.sc Forum {#community-imagesc}
 
-Twitter. rstats. 
-Draw from R for Excel Users, Openscapes.
+The focus of [Forum.image.sc ](https://Forum.image.sc) is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images. Community partners and conversations include ImageJ, CellProfiler, Napari, QuPath, and more!
+
+## Neubias
+
+<!---of particular interest:
+
+- Napari, 
+- Interactive bioimage analysis with Jupyter with Guillame Witz: great for beginners. Part 1 and 2. 
+
+--->
+

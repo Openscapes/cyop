@@ -44,7 +44,7 @@ You want to learn:
 
 ## Image analysis 
 
-<!---(single cell)--->
+Learn more about image analysis techniques and software with the image.sc community...\@ref(community-imagesc)
 
 You want to learn: 
 
@@ -53,7 +53,7 @@ You want to learn:
   - with no previous coding experience...\@ref(imagej-intro)
   - to write automated macros and plugins...\@ref(imagej-macros)
 - **QuPath**...  <https://qupath.github.io/>
-- **Napari**... <https://napari.org/tutorials/> - Nick Sofroniew
+- **Napari**... <https://github.com/sofroniewn/napari-training-course> - Nick Sofroniew
 
 ## RNA Sequencing
 
