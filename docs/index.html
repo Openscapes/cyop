@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Choose youR own Pythway</title>
   <meta name="description" content="Choose youR own Pythway" />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Choose youR own Pythway" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-06-22" />
+<meta name="date" content="2020-08-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,6 +50,7 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -130,8 +131,8 @@
 </ul></li>
 <li class="chapter" data-level="12" data-path="community.html"><a href="community.html"><i class="fa fa-check"></i><b>12</b> Community learning</a><ul>
 <li class="chapter" data-level="12.1" data-path="community.html"><a href="community.html#community-twitter"><i class="fa fa-check"></i><b>12.1</b> Twitter</a><ul>
-<li class="chapter" data-level="12.1.1" data-path="community.html"><a href="community.html#community-rstats"><i class="fa fa-check"></i><b>12.1.1</b> #rstats</a></li>
-<li class="chapter" data-level="12.1.2" data-path="community.html"><a href="community.html#tidy-tuesday"><i class="fa fa-check"></i><b>12.1.2</b> #tidytuesday</a></li>
+<li class="chapter" data-level="12.1.1" data-path="community.html"><a href="community.html#community-r"><i class="fa fa-check"></i><b>12.1.1</b> R</a></li>
+<li class="chapter" data-level="12.1.2" data-path="community.html"><a href="community.html#community-python"><i class="fa fa-check"></i><b>12.1.2</b> Python</a></li>
 </ul></li>
 <li class="chapter" data-level="12.2" data-path="community.html"><a href="community.html#community-slack"><i class="fa fa-check"></i><b>12.2</b> Slack</a><ul>
 <li class="chapter" data-level="12.2.1" data-path="community.html"><a href="community.html#gene-yeos-learning-channel"><i class="fa fa-check"></i><b>12.2.1</b> Gene Yeo’s learning channel</a></li>
@@ -142,6 +143,7 @@
 <li class="chapter" data-level="12.5" data-path="community.html"><a href="community.html#pyopensci"><i class="fa fa-check"></i><b>12.5</b> pyOpenSci</a></li>
 <li class="chapter" data-level="12.6" data-path="community.html"><a href="community.html#community-imagesc"><i class="fa fa-check"></i><b>12.6</b> Image.sc Forum</a></li>
 <li class="chapter" data-level="12.7" data-path="community.html"><a href="community.html#neubias"><i class="fa fa-check"></i><b>12.7</b> Neubias</a></li>
+<li class="chapter" data-level="12.8" data-path="community.html"><a href="community.html#further-reading"><i class="fa fa-check"></i><b>12.8</b> Further Reading</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="scripts.html"><a href="scripts.html"><i class="fa fa-check"></i><b>13</b> Scripts</a><ul>
 <li class="chapter" data-level="13.1" data-path="scripts.html"><a href="scripts.html#scripts-to-organize-name-incoming-imaging-files"><i class="fa fa-check"></i><b>13.1</b> scripts to organize &amp; name incoming imaging files</a></li>
@@ -169,7 +171,7 @@
 <div id="header">
 <h1 class="title">Choose youR own Pythway</h1>
 <p class="author"><em>Julia Stewart Lowndes and contributors</em></p>
-<p class="date"><em>2020-06-22</em></p>
+<p class="date"><em>2020-08-03</em></p>
 </div>
 <div id="welcome" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Welcome</h1>
@@ -186,7 +188,7 @@
 </div>
 <div id="about" class="section level2">
 <h2><span class="header-section-number">1.2</span> About</h2>
-<p>We are developing this book specifically to meet the needs of biomedical scientists who are part of <a href="https://chanzuckerberg.com/">CZI</a>’s <a href="https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04">Neurodegenerative Challenge Network</a> — but it is designed for wide use across research domains. It is led, edited and maintained by <a href="http://jules32.github.io">Julia Stewart Lowndes</a> and <a href="https://openscapes.org">Openscapes</a> with help from a growing number of NDCN contributors, including you. <!---supported by CZI---> Demonstrating the power of open source not only for analysis but for communication, the book is written in R (<a href="https://bookdown.org/yihui/bookdown/">bookdown</a>) and published through GitHub.</p>
+<p>We are developing this book specifically to meet the needs of biomedical scientists who are part of the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative</a>’s <a href="https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04">Neurodegenerative Challenge Network</a> — but it is designed for wide use across research domains. It is led, edited and maintained by <a href="http://jules32.github.io">Julia Stewart Lowndes</a> and <a href="https://openscapes.org">Openscapes</a> with help from a growing number of NDCN contributors, including you. <!---supported by CZI---> Demonstrating the power of open source not only for analysis but for communication, the book is written in R (<a href="https://bookdown.org/yihui/bookdown/">bookdown</a>) and published through GitHub.</p>
 <p>Contributors include:</p>
 <ul>
 <li>NDCN Computational Advisors</li>
@@ -201,6 +203,7 @@
 <p>We welcome contributions: please edit the book or share resources that have helped you via <a href="mailto:openscapes@nceas.ucsb.edu">email</a> or <a href="https://github.com/openscapes/cyop">GitHub</a>. We are thankful for your contributions and will include them after considering whether they fit within our opinionated framework and audience needs.</p>
 <hr />
 <p><a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="border-width:0" alt="Creative Commons License" /></a> This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.</p>
+<p><img src="img/CZI_Logotype_RGB.png" width="100"></p>
 
 </div>
 </div>

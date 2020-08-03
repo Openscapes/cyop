@@ -112,3 +112,8 @@ Platforms for data sharing <!---Gene Yeo CRED portal as an example:) ) https://w
 
 ## Containers
 - Docker ...
+
+<!---
+More advanced...
+https://coderefinery.org/lessons/
+--->

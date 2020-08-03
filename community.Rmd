@@ -1,22 +1,38 @@
 # Community learning {#community}
 
-*Preamble: Learn with others. The power of Welcome, empathy. Be inclusive*
+The Internet is full of resources for learning and troubleshooting how to code, and those resources are created by communities of people: software developers, researchers, teachers, and learners. 
 
-> "If you want to learn to write, you read a lot, if you want to play music, you listen a lot. It's hard to do this with data analysis." - [Hilary Parker & Roger Peng, RStudio::conf(2020) keynote ](https://twitter.com/juliesquid/status/1223046389447311361) <!---http://nssdeviations.com/100-live-from-rstudio-conf-2020, starts after 47:20--->
+```{r, echo=FALSE, message=FALSE}
+## https://github.com/gadenbuie/tweetrmd
 
-This is why we have community, to help us connect, share, & learn. 
+# devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd)
+include_tweet("https://twitter.com/TheStephLocke/status/1214569802804662274", plain = TRUE)
 
-<!---
-https://www.facetsjournal.com/doi/10.1139/facets-2019-0020
---->
+# ## alternate way: 
+# ## devtools::install_github('rstudio/webshot2')
+# library(webshot2)
+# tweet_screenshot("https://twitter.com/TheStephLocke/status/1289648352192270336")
+# ## this is supposed to hyperlink the screenshot, not happening presently...
+# tweet_screenshot(tweet_url("TheStephLocke", "1289648352192270336"))
+
+```
+
 
 ## Twitter {#community-twitter}
-You can use Twitter for coding?
 
-### #rstats {#community-rstats}
+Twitter is a powerful resource for coding. This is where developers, users, teachers, and learners share what they are working on, where they are stuck, how they have solved challenges. It is a place for thoughtful conversations in the coding community. Some advice and examples in the Q&A part of [this blog post](https://www.openscapes.org/blog/2019/08/22/user-keynote/). 
 
-### #tidytuesday {#tidy-tuesday}
-<!---can we do this for python --->
+Here are a few hashtags to follow:
+
+### R {#community-r}
+
+- \#rstats is the heart of the R community
+- \#tidytuesday is a weekly challenge to visualize a dataset and share what you learned
+
+### Python {#community-python}
+
+- \#pydata: python for data science
 
 ## Slack {#community-slack}
 You can use Slack for coding?
@@ -57,4 +73,21 @@ The focus of [Forum.image.sc ](https://Forum.image.sc) is software-oriented aspe
 - Interactive bioimage analysis with Jupyter with Guillame Witz: great for beginners. Part 1 and 2. 
 
 --->
+
+<!---
+Example communities
+https://ourcodingclub.github.io/contact.html
+
+Example events
+https://resbazblog.wordpress.com/ideas/
+hacky hours
+tidy tuesday meetups
+hackathons 
+
+--->
+
+## Further Reading
+
+- Cereceda & Quinn. 2020. [A graduate student perspective on overcoming barriers to interacting with open-source software](https://doi.org/10.1139/facets-2019-0020), *Facets*
+
 
