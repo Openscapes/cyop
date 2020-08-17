@@ -33,4 +33,4 @@ Naming files deliberately are a huge part of streamlining workflows.
 
 -   [Using SQL in RStudio](https://irene.rbind.io/post/using-sql-in-rstudio/)
 
-    -   Assumes you are already an R/RStudio user. For a refresher...\@ref(r-intro)
+    -   Assumes you are already an R/RStudio user. For a refresher...\@ref(rstats-intro)
