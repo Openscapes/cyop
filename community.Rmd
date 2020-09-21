@@ -1,6 +1,6 @@
 # Community learning {#community}
 
-The Internet is full of resources for learning and troubleshooting how to code, and those resources are created by communities of people: software developers, researchers, teachers, and learners. 
+The Internet is full of resources for learning and troubleshooting how to code, and those resources are created by communities of people: software developers, researchers, teachers, and learners. Here are some communities to engage with. 
 
 ```{r, echo=FALSE, message=FALSE}
 ## https://github.com/gadenbuie/tweetrmd
@@ -18,48 +18,36 @@ include_tweet("https://twitter.com/TheStephLocke/status/1214569802804662274", pl
 
 ```
 
+**Twitter** is a powerful tool and resource for coding. This is where developers, users, teachers, and learners share what they are working on, where they are stuck, how they have solved challenges. It is a place for thoughtful conversations in the coding community. Some advice and examples in the Q&A part of [this Openscapes blog post](https://www.openscapes.org/blog/2019/08/22/user-keynote/). 
 
-## Twitter {#community-twitter}
-
-Twitter is a powerful resource for coding. This is where developers, users, teachers, and learners share what they are working on, where they are stuck, how they have solved challenges. It is a place for thoughtful conversations in the coding community. Some advice and examples in the Q&A part of [this blog post](https://www.openscapes.org/blog/2019/08/22/user-keynote/). 
-
-Here are a few hashtags to follow:
-
-### R {#community-r}
-
-- \#rstats is the heart of the R community
-- \#tidytuesday is a weekly challenge to visualize a dataset and share what you learned
-
-### Python {#community-python}
-
-- \#pydata: python for data science
-
-## Slack {#community-slack}
-You can use Slack for coding?
-From Gene & Jon: Help folks become good teachers/mentors, Use the network: teach the potential teachers. Become a mentor, put it on your CV.
-
-  - Why should we use Slack? [slides](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) & [blog](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XqkFPG57nOR)- Stephanie Hicks & Leonardo Collado-Torres 
-
-### Gene Yeo's learning channel
+**Slack** is another powerful tool for communities, where folks can interact and learn how to become good teachers and mentors by engaging an a network. Why should we use Slack? Here are some [slides](https://docs.google.com/presentation/d/1ji-3hLYPs3yIEu7wqyRdkGanxdON84ypuq8lyL5Yf-I/edit#slide=id.p) and a blog [blog](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XqkFPG57nOR) to help answer that question (Hicks & Collado-Torres).
 
 
-### R4DS <Slack> Community {#community-r4ds}
-R for Data Science Online Learning Community. For learners ("Develop your skills in R and Data science with a friendly community"), mentors ("help build a positive learning community for R users and expand your R debugging skills"), and community ("help develop resources for others to feel part of the #rstats community")
+## Language-based communities {#community-language}
 
-- [\@R4DScommunity on Twitter](https://twitter.com/R4DScommunity)
-- [Join the Slack](https://www.rfordatasci.com/)
-- Jon's lightning talk
+Open source coding languages are powerful and dynamic because of their communities of developers, users, teachers, and learners from diverse backgrounds. [The Carpentries](https://carpentries.org/) is a teaching and learning community that spans many coding languages, and has [many ways to get involved](https://carpentries.org/community/).
 
-## rOpenSci
+### R
 
-## RLadies
+The R community has many overlapping communities, many of which also have a presence on Twitter and use the [\#rstats hashtag](https://twitter.com/hashtag/rstats?lang=en). Some of these communities include: 
 
-## pyOpenSci
+- [RStudio](https://rstudio.com)
+- [rOpenSci](https://ropensci.org)
+- [RLadies](https://rladies.org)
 
-- https://chadsansing.gitbooks.io/open-facilitation/content/chapter12.html
+Additional Slack channels: 
+
+- [R for Data Science Online Learning Community](https://www.rfordatasci.com/)
+
+### Python
+
+Python's main Twitter hashtags are [\#pydata](https://twitter.com/hashtag/pydata?lang=en) and [\#python](https://twitter.com/hashtag/python?lang=en). Some communities to engage with:
+
+- [pyOpenSci](https://www.pyopensci.org/)
+- [Pangeo](https://pangeo.io/index.html)
 
 
-<!---researchgate chelsey--->
+<!---Gene Yeo's Slack learning channel --->
 
 ## Image.sc Forum {#community-imagesc}
 
@@ -67,27 +55,30 @@ The focus of [Forum.image.sc ](https://Forum.image.sc) is software-oriented aspe
 
 ## Neubias
 
-<!---of particular interest:
+[NEUBIAS](http://eubias.org/NEUBIAS/) (Network of EUropean BioImage AnalystS) is a community developing resources for bioimage analysts. Of particular interest is the [Academy @ Home](http://eubias.org/NEUBIAS/training-schools/neubias-academy-home/) training series. Of particular interest might be [interactive bioimage analysis with Python and Jupyter](https://www.youtube.com/watch?v=2KF8vBrp3Zw) (Parts 1 and 2).
 
-- Napari, 
-- Interactive bioimage analysis with Jupyter with Guillame Witz: great for beginners. Part 1 and 2. 
+## Build your own local community
 
---->
+Communities like RLadies enable you to create local meetups linked to the global network. You can also create local communities or lead local events. Here are some examples and ideas:
 
-<!---
-Example communities
-https://ourcodingclub.github.io/contact.html
+**Example communities**
 
-Example events
-https://resbazblog.wordpress.com/ideas/
-hacky hours
-tidy tuesday meetups
-hackathons 
+- [Eco-data-science](http://eco-data-science.github.io/)
+- [Our coding club](https://ourcodingclub.github.io/contact.html)
 
---->
+
+**Example events**
+
+From [resblazblog](https://resbazblog.wordpress.com/ideas/):
+
+- hacky hours
+- tidy tuesday meetups
+- hackathons 
+
 
 ## Further Reading
 
 - Cereceda & Quinn. 2020. [A graduate student perspective on overcoming barriers to interacting with open-source software](https://doi.org/10.1139/facets-2019-0020), *Facets*
+- Sansing. [Open Facilitation](- https://chadsansing.gitbooks.io/open-facilitation/content/chapter12.html)
 
 
