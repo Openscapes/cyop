@@ -4,6 +4,8 @@ Python is a powerful language for programming and data science and has wide use 
 
 **Versions**. Python had some upgrades between versions 2 and 3 in \~2010, and it's important to keep this in mind as you learn. A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. Either way, the majority of your learning will be the same.
 
+**R users**. If you are an R user, consider using Python in RStudio with [reticulate](https://rstudio.github.io/reticulate/) to reduce the overhead for getting started.
+
 ## Getting a sense of Python {#python-sense}
 
 Reading blog posts are also a good way for getting a sense of Python, and you can follow along with many hands-on. 
@@ -17,9 +19,13 @@ Reading blog posts are also a good way for getting a sense of Python, and you ca
 
 ## Learning Python {#python-learn}
 
--   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry
+-   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - The Carpentries (Software Carpentry)
 
-    - Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks
+    - Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks. Recommended as an intro to how Python works for programming (see next).
+    - Python 3
+- [Data analysis and visualization in Python for ecologists](https://datacarpentry.org/python-ecology-lesson/) - The Carpentries (Data Carpentry)
+
+    - Not just for ecologists! Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks. Recommended as an intro from how to use Python for data analysis (see previous).
     - Python 3
 
 -   [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake VanderPlas
