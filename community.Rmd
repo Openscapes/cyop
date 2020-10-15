@@ -25,9 +25,9 @@ include_tweet("https://twitter.com/TheStephLocke/status/1214569802804662274", pl
 
 ## Language-based communities {#community-language}
 
-Open source coding languages are powerful and dynamic because of their communities of developers, users, teachers, and learners from diverse backgrounds. [The Carpentries](https://carpentries.org/) is a teaching and learning community that spans many coding languages, and has [many ways to get involved](https://carpentries.org/community/).
+Open source coding languages are powerful and dynamic because of their communities of developers, users, teachers, and learners from diverse backgrounds. [The Carpentries](https://carpentries.org/) is a teaching and learning community that spans many coding languages, has all their material online available for self-paced learning, and has [many ways to get involved](https://carpentries.org/community/).
 
-### R
+### R {#community-r}
 
 The R community has many overlapping communities, many of which also have a presence on Twitter and use the [\#rstats hashtag](https://twitter.com/hashtag/rstats?lang=en). Some of these communities include: 
 
@@ -37,9 +37,9 @@ The R community has many overlapping communities, many of which also have a pres
 
 Additional Slack channels: 
 
-- [R for Data Science Online Learning Community](https://www.rfordatasci.com/)
+- [R for Data Science (R4DS) Online Learning Community](https://www.rfordatasci.com/)
 
-### Python
+### Python {community-python}
 
 Python's main Twitter hashtags are [\#pydata](https://twitter.com/hashtag/pydata?lang=en) and [\#python](https://twitter.com/hashtag/python?lang=en). Some communities to engage with:
 
@@ -48,6 +48,10 @@ Python's main Twitter hashtags are [\#pydata](https://twitter.com/hashtag/pydata
 
 
 <!---Gene Yeo's Slack learning channel --->
+
+## Parkinsons Disease
+
+- https://parkinsonsroadmap.org/gp2/bioinformatics
 
 ## Image.sc Forum {#community-imagesc}
 
@@ -75,6 +79,11 @@ From [resblazblog](https://resbazblog.wordpress.com/ideas/):
 - tidy tuesday meetups
 - hackathons 
 
+## Other training opportunities
+
+- https://neuromatch.io/academy/
+this is a bit more neuroscience than ND (eg more on neurophysiology side than genomics/omics)
+- https://tess.elixir-europe.org/about
 
 ## Further Reading
 

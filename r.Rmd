@@ -14,19 +14,19 @@ R is a programming language with roots in statistics but also for powerful for d
 
 - [Data Wrangling Part 1: Basic to Advanced Ways to Select Columns](https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/) - Suzan Baert
 
-## Intro to R/RStudio for data science with the tidyverse {#rstats-intro}
+## Intro to R with RStudio/tidyverse {#rstats-intro}
 
 Many modern R users interact with R through RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (\#rstats). <!---Tidyverse & RStudio airport--->
 
 
 -   [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst
 
-    -  Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
+    -  This is for anyone, not just Excel users! Assumes no previous coding experience, and teaches R as a workflow with GitHub and RMarkdown, with a focus on collaboration & reproducibility.
 
--   [R for Data Science](r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
+-   [R for Data Science](https://r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
 
-    -   THE go-to resource for all things tidyverse. Called R4DS for short.
-    -   learn with the R4DS community...\@ref(community-r4ds)
+    -   THE go-to resource for learning R with the tidyverse.
+    -   learn with the R4DS community...\@ref(community-r)
 
 -   [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
 
@@ -74,14 +74,10 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
 
 -   [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham
 
-    -   Assumes...
-
 -   [Shiny tips & tricks for improving your apps and solving common problems](https://deanattali.com/blog/advanced-shiny-tips/) - Dean Attali
 
 ## Machine Learning {#rstats-ml}
 
 -   [tidymodels](https://www.tidymodels.org/) by RStudio Education
-
-    -   Assumes...check out Ch X first
 
 -   [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
