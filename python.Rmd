@@ -51,6 +51,11 @@ Reading blog posts are also a good way for getting a sense of Python, and you ca
     -   Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.
     -   Python 2
 
+### Setting up a python environment
+
+- [Creating a reproducible (python-centric) environment](https://docs.google.com/presentation/d/1qNJrRJsiMRHRyvFzbySmmbtgDgVtG5ht95892-39CVE/edit#slide=id.p) - Chris Sifuentes
+  - These slides from NDCN Office Hours describe what an environment is, why it's important for reproducibility, and how to set it up in Python
+
 
 ## Machine Learning
 
