@@ -54,6 +54,10 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
 
     -   Assumes no previous experience with RMarkdown, and has a showcase Gallery
 
+- [RMarkdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) - Yihui Xie, J.J. Allaire, Garrett Grolemund
+
+- [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) - Yihui Xie, Christophe Dervieux, Emily Reiderer
+
 -   [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
 
     -   3-hour lesson book
