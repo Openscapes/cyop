@@ -1,5 +1,7 @@
 # Python {#python}
 
+Hi. This is Kylie.
+
 Python is a very powerful language for programming and data science and has wide use in scientific communities. The [Python Docs website](https://docs.python.org/3/) has links to news and resources, and their [Hitchhiker's guide to Python](https://docs.python-guide.org/) provides a nice overview and links to many [tutorials](https://docs.python-guide.org/intro/learning/#beginner) sorted by beginner, intermediate, and advanced.
 
 **Versions**. Python had some upgrades between versions 2 and 3 in \~2010, and it's important to keep this in mind as you learn. A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. Either way, the majority of your learning will be the same.
