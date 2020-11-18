@@ -1,6 +1,5 @@
 # Python {#python}
 
-Hi. This is Kylie.
 
 Python is a very powerful language for programming and data science and has wide use in scientific communities. The [Python Docs website](https://docs.python.org/3/) has links to news and resources, and their [Hitchhiker's guide to Python](https://docs.python-guide.org/) provides a nice overview and links to many [tutorials](https://docs.python-guide.org/intro/learning/#beginner) sorted by beginner, intermediate, and advanced.
 

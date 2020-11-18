@@ -1,4 +1,4 @@
-# Workflows & pipelines {#workflows}
+# Workflows {#workflows}
 
 There are a lot of steps involved in computational analyses, and documenting those steps is really important for efficiency and reproducibility. Documentation can go along with code that automates these steps, and there are often opportunities to streamline how steps work together and how you as the user has to interoperate between software applications or languages. You can get inspired with this list of [awesome pipelines](https://github.com/pditommaso/awesome-pipeline). <!---from Mike Keiser--->
 
@@ -22,6 +22,11 @@ Naming files deliberately are a huge part of streamlining workflows.
 -   [How to name files](https://speakerdeck.com/jennybc/how-to-name-files) - Jenny Bryan
 
     -   short slide deck championing 3 filenaming principles
+
+## Project-oriented workflows {#proj-oriented}
+
+- [What They Forgot to Teach You About R](https://rstats.wtf/)
+  - R-focused, but Chapters 1-4 particularly are relevant no matter the language
 
 ## Reproducible research in action {#repro-research}
 
