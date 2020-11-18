@@ -30,6 +30,12 @@ Many modern R users interact with R through RStudio. RStudio provides a software
 
 -   [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
 
+## Code style guide {#style-guide}
+
+- [Tidyverse style guide](https://style.tidyverse.org/) - Hadley Wickham
+  - "Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread."
+  - Describes style for the tidyverse and Google's current R Style Guide
+
 ## Statistics with R {#rstats-stats}
 
 -   [Statistics and R](https://www.edx.org/course/statistics-and-r) - Rafael Irizarry & Michael Love
@@ -85,3 +91,8 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
 -   [tidymodels](https://www.tidymodels.org/) by RStudio Education
 
 -   [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
+
+## Full Courses
+
+- [QCBS](https://wiki.qcbs.ca/r)
+- [Reproducible Quantitative Methods](https://cbahlai.github.io/rqm-template/) - Christie Bahlai
