@@ -1,9 +1,31 @@
 # Scripts {#scripts}
 
-*Preamble*
+These scripts are contributed from the NDCN community during office hours hackathons, etc. They are available for remix/reuse by other community members.
 
-These scripts are contributed from the NDCN community and have been adapted or "remixed" by other community members during office hours hackathons, etc. All scripts will be in a GitHub repo. 
+## hackathon R scripts
+- [olivertam/NDCN_hackathon](https://github.com/olivertam/NDCN_hackathon)
 
-## scripts to organize & name incoming imaging files
-- in language X...
+## RNAseq quality control
+- [olivertam/NDCN_RNAseq](https://github.com/olivertam/NDCN_RNAseq)
+
+## tidy data R script: expression data
+
+- [olivertam/NDCN_tidyData](https://github.com/olivertam/NDCN_tidyData). Short script imports expression data (wide format with row names) and uses 2 `tidyr` functions: `rownames_to_column()` and `pivot_longer()` to transform to tidy data. Then, we do a preliminary plot to help think of next steps. Oliver's repo includes data required to run to code below.
+
+```{r, eval=FALSE}
+library(tidyverse)
+
+data <- read.table("exprData.txt",sep="\t",header=TRUE,row.names=1)
+
+tidyData <- data %>%
+    rownames_to_column(var = "geneSymbol") %>%
+    pivot_longer(
+        cols = sample1_neuron:sample3_others,
+        names_to = c("sample","celltype"),
+        names_pattern = "(.*)_(.*)",
+        values_to = "count"
+    )
+p <- ggplot(data = tidyData, aes(x = celltype, y = count, fill = sample)) + geom_violin()
+p
+```
 
