@@ -2,6 +2,7 @@
 
 *Computational Onboarding has been a recurring theme: how do you help others get "on board" with lab practices and protocols as quickly as possible?*
 
+
 **What is computational onboarding?**
 
 Onboarding is a business/management term for how new employees "acquire the necessary knowledge, skills, and behaviors in order to become effective organizational members and insiders" ([Wikipedia](https://en.wikipedia.org/wiki/Onboarding)). In a research setting, computational onboarding is the set practices for your lab that set the tone for what is expected. These practices are about tools and social norms – it's as much about "here are our values and code of conduct" as it is about "we use these software tools and store our data in this place."
@@ -14,31 +15,10 @@ Writing onboarding plans down in a document helps everyone be on the same page (
 
   * How we work: [Pinsky Lab](https://github.com/pinskylab), Lab policies: [Bahlai Lab](https://github.com/BahlaiLab). Code of Conduct: [Keiser Lab](https://github.com/keiserlab/policy)
     * These are all Markdown files in a Lab's GitHub Organization homepage
-
-![|252x135](https://lh5.googleusercontent.com/UdfiySpE34gDbIU1Vfz4h-ByPRLVF1SxKl1NaMOmpg1pRwBZ9WHsKZMohSkOIAA2ILFV3ci1dsprRpSC3MG7Sr9X5G7RY8yxYhZc5GcrH_VB43ecFCnj3O0ljvGMz-Zss3QE87Za)![|252x158](https://lh3.googleusercontent.com/aPYsQg076WeK9LFzk3DJcNHQJrdxJjQGXHJ_R-SB9qGNFkuqcLdcanPILGy8LEcS5XjCD9WA5hlCgMtdPz_CCfZKJ8pFG7bRo61dzm8yIrcoS75CU-IdOywjdFVtjqAGLONUooOP)
-
-**![|471x185](https://lh6.googleusercontent.com/mRAXRxkARvTvsL0bn5ktNBAbxCafpN6pjAhlhoi4LX9VAPE7ZQTV8VmCvkrr9Vk2QRABKBs2W5ekekqXyfwUTfoviy1NaUhq6RrMEwOjNYbN67gyX7eaZrorPYxB--q-tH_PYn_N)**
-![|252x135](upload://yDp4o3xwOD4CrNcIg6lCCHFz85V.png)![|252x158](upload://788SqJD2B4sBsCFUY14WvbzTPkj.png)
-
-**![|471x185](upload://tDLxNHDpDPShvhRWEOzWTQTxNwo.png)**
-   
   * Standard operating procedures (SOP): [Ocean Health Index](https://rawgit.com/OHI-Science/ohiprep/master/src/dataOrganization_SOP.html), [emLab](https://emlab-ucsb.github.io/SOP/), [FayLab Manual](https://thefaylab.github.io/lab-manual/)
     * Rmarkdown published as webpage or e-book
-   
-  * Standard operating procedures (SOP): [Ocean Health Index](https://rawgit.com/OHI-Science/ohiprep/master/src/dataOrganization_SOP.html), [emLab](https://emlab-ucsb.github.io/SOP/), [FayLab Manual](https://thefaylab.github.io/lab-manual/)
-    * Rmarkdown published as webpage or e-book
-  * ![|253x189](https://lh5.googleusercontent.com/5BRymvqs2z5QtUju7H3XYa17MKZ_Zxq4VlA01EBhKfAaQzBYPhN8xNVnr2I-bKC2RVUpy24UE3q-HDPrZG61cy06GYh5vCgmFuNxAavKZ-BRtfIybkoInhnVPH2aWAcK2y3R09gJ)![|254x164](https://lh3.googleusercontent.com/M_NW3MoXSKhGHrBXq2tOEDgV7CLnPMGMgsuwG7cXBI1_-xl0sQt9DdOh17TrUJp1WLBMpXYRUGfZbZPqDlDPXNTzs8LdoyW85Rszv5B004WfZqeOXdKMtUX7rD3CAA1nF7dxxTMC)
-  * ![|253x189](upload://zua2hiqBSEing3AgZ49jmiMvtGu.jpeg)![|254x164](upload://st3SbMowD3ifNVlxBuh6zUbwhUv.jpeg)
-![image|690x403](upload://vDCBVCwefGlwMnry7TeoH6Oq8XK.png) 
-
   * Weekly onboarding-centered lab meetings: [Wood Lab](https://docs.google.com/document/d/e/2PACX-1vQEN-hqEIvnddWNdpYdATzZIUgAFFzKzPCLm5ijjSQeViD6E4ExAbHXYyhQSF58SyJQrWR40i6P_h2u/pub)
     * Google Doc > File > Publish to the Web
-![image|690x403](upload://vDCBVCwefGlwMnry7TeoH6Oq8XK.png) 
-
-  * Weekly onboarding-centered lab meetings: [Wood Lab](https://docs.google.com/document/d/e/2PACX-1vQEN-hqEIvnddWNdpYdATzZIUgAFFzKzPCLm5ijjSQeViD6E4ExAbHXYyhQSF58SyJQrWR40i6P_h2u/pub)
-    * Google Doc > File > Publish to the Web
-  * ![|344x245](https://lh6.googleusercontent.com/HMLRNwkonfM-MUMLJCQy8aARQgDyTeMoyHWj5z3QtrboaPsHnaIpWxD9C_MIwHPiLvf33LlD--NQx7N3iJuMdUx092CAQueQRPYUsDp1W5P0SAkWBi3NG9z9e70uyWhzZ-J7FklV)
-  * ![|344x245](upload://8RRCIqOQ6fOU9Itnl8pJTn20Hor.jpeg)
   * Notice that all of these are public. Leverage online: not only easier to find but is welcoming: signals diversity and inclusion
 
 
