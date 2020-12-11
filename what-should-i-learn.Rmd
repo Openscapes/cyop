@@ -1,6 +1,6 @@
 # What should I learn? {#what-to-learn}
 
-Modern scientific coders often operate with many coding languages and software in our workflows. But getting started, we often have a primary language that we use along with a suite of concepts and that help us develop workflows and interoperate between languages and software to do our analytical research. Learning one language to do a task at hand can help you develop skills and mindsets that can be transferrable when you come upon other tasks. 
+Modern scientific coders often operate with many coding languages and software in our workflows. But getting started, we often have a primary language that we use along with a suite of concepts and that help us develop workflows and interoperate between languages and software to do our analytical research. Learning one language to do a task at hand can help you develop skills and mindsets that can be transferable when you come upon other tasks. 
 
 A great thing about modern computation is that there are multiple ways to do the same thing. But this can also be a really challenging thing too: what should you learn? And in which order? This chapter aims to help you find resources to learn what you need. 
 
