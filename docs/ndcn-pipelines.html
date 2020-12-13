@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 10 NDCN Pipelines | Choose youR own Pythway</title>
   <meta name="description" content="Chapter 10 NDCN Pipelines | Choose youR own Pythway" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 10 NDCN Pipelines | Choose youR own Pythway" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Julia Stewart Lowndes and contributors" />
 
 
-<meta name="date" content="2020-12-11" />
+<meta name="date" content="2020-12-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,6 +33,7 @@
   
 <link rel="prev" href="workflows.html"/>
 <link rel="next" href="community.html"/>
+<script src="libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,23 +52,20 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -137,13 +135,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!---<li><a href="https://openscapes.org">← Go to openscapes.org</a></li>--->
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#how-to-use-this-book"><i class="fa fa-check"></i><b>1.1</b> How to use this book</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#about"><i class="fa fa-check"></i><b>1.2</b> About</a></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#contributing"><i class="fa fa-check"></i><b>1.3</b> Contributing</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i><b>2</b> Preface</a></li>
-<li class="chapter" data-level="3" data-path="what-to-learn.html"><a href="what-to-learn.html"><i class="fa fa-check"></i><b>3</b> What should I learn?</a><ul>
+<li class="chapter" data-level="3" data-path="what-to-learn.html"><a href="what-to-learn.html"><i class="fa fa-check"></i><b>3</b> What should I learn?</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="what-to-learn.html"><a href="what-to-learn.html#learn-a-new-language"><i class="fa fa-check"></i><b>3.1</b> Learn a new language</a></li>
 <li class="chapter" data-level="3.2" data-path="what-to-learn.html"><a href="what-to-learn.html#image-analysis"><i class="fa fa-check"></i><b>3.2</b> Image analysis</a></li>
 <li class="chapter" data-level="3.3" data-path="what-to-learn.html"><a href="what-to-learn.html#rna-sequencing"><i class="fa fa-check"></i><b>3.3</b> RNA Sequencing</a></li>
@@ -155,7 +155,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.9" data-path="what-to-learn.html"><a href="what-to-learn.html#publishing"><i class="fa fa-check"></i><b>3.9</b> Publishing</a></li>
 <li class="chapter" data-level="3.10" data-path="what-to-learn.html"><a href="what-to-learn.html#containers"><i class="fa fa-check"></i><b>3.10</b> Containers</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="rstats.html"><a href="rstats.html"><i class="fa fa-check"></i><b>4</b> R</a><ul>
+<li class="chapter" data-level="4" data-path="rstats.html"><a href="rstats.html"><i class="fa fa-check"></i><b>4</b> R</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="rstats.html"><a href="rstats.html#rstats-sense"><i class="fa fa-check"></i><b>4.1</b> Get a sense of R</a></li>
 <li class="chapter" data-level="4.2" data-path="rstats.html"><a href="rstats.html#rstats-intro"><i class="fa fa-check"></i><b>4.2</b> Intro to R with RStudio/tidyverse</a></li>
 <li class="chapter" data-level="4.3" data-path="rstats.html"><a href="rstats.html#style-guide"><i class="fa fa-check"></i><b>4.3</b> Code style guide</a></li>
@@ -165,41 +166,51 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.7" data-path="rstats.html"><a href="rstats.html#rstats-ml"><i class="fa fa-check"></i><b>4.7</b> Machine Learning</a></li>
 <li class="chapter" data-level="4.8" data-path="rstats.html"><a href="rstats.html#full-courses"><i class="fa fa-check"></i><b>4.8</b> Full Courses</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>5</b> Python</a><ul>
+<li class="chapter" data-level="5" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>5</b> Python</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="python.html"><a href="python.html#python-sense"><i class="fa fa-check"></i><b>5.1</b> Getting a sense of Python</a></li>
-<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-learn"><i class="fa fa-check"></i><b>5.2</b> Learning Python</a><ul>
+<li class="chapter" data-level="5.2" data-path="python.html"><a href="python.html#python-learn"><i class="fa fa-check"></i><b>5.2</b> Learning Python</a>
+<ul>
 <li class="chapter" data-level="5.2.1" data-path="python.html"><a href="python.html#setting-up-a-python-environment"><i class="fa fa-check"></i><b>5.2.1</b> Setting up a python environment</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="python.html"><a href="python.html#machine-learning"><i class="fa fa-check"></i><b>5.3</b> Machine Learning</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="command-line.html"><a href="command-line.html"><i class="fa fa-check"></i><b>6</b> The Command Line</a><ul>
+<li class="chapter" data-level="6" data-path="command-line.html"><a href="command-line.html"><i class="fa fa-check"></i><b>6</b> The Command Line</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="command-line.html"><a href="command-line.html#getting-a-sense-of-the-command-line"><i class="fa fa-check"></i><b>6.1</b> Getting a sense of the command line</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="imagej.html"><a href="imagej.html"><i class="fa fa-check"></i><b>7</b> ImageJ</a><ul>
+<li class="chapter" data-level="7" data-path="imagej.html"><a href="imagej.html"><i class="fa fa-check"></i><b>7</b> ImageJ</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="imagej.html"><a href="imagej.html#imagej-intro"><i class="fa fa-check"></i><b>7.1</b> Intro to ImageJ and FIJI</a></li>
 <li class="chapter" data-level="7.2" data-path="imagej.html"><a href="imagej.html#imagej-macros"><i class="fa fa-check"></i><b>7.2</b> ImageJ Macros</a></li>
 <li class="chapter" data-level="7.3" data-path="imagej.html"><a href="imagej.html#imagej-plugins"><i class="fa fa-check"></i><b>7.3</b> ImageJ Plugins</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="git-gh.html"><a href="git-gh.html"><i class="fa fa-check"></i><b>8</b> Git/GitHub</a><ul>
-<li class="chapter" data-level="8.1" data-path="git-gh.html"><a href="git-gh.html#git-gh-setup"><i class="fa fa-check"></i><b>8.1</b> Git/GitHub Setup</a><ul>
+<li class="chapter" data-level="8" data-path="git-gh.html"><a href="git-gh.html"><i class="fa fa-check"></i><b>8</b> Git/GitHub</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="git-gh.html"><a href="git-gh.html#git-gh-setup"><i class="fa fa-check"></i><b>8.1</b> Git/GitHub Setup</a>
+<ul>
 <li class="chapter" data-level="8.1.1" data-path="git-gh.html"><a href="git-gh.html#github-for-r-users"><i class="fa fa-check"></i><b>8.1.1</b> GitHub for R users</a></li>
 </ul></li>
 <li class="chapter" data-level="8.2" data-path="git-gh.html"><a href="git-gh.html#gh-fix"><i class="fa fa-check"></i><b>8.2</b> Fixing mistakes</a></li>
 <li class="chapter" data-level="8.3" data-path="git-gh.html"><a href="git-gh.html#gh-issues"><i class="fa fa-check"></i><b>8.3</b> GitHub Issues</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="workflows.html"><a href="workflows.html"><i class="fa fa-check"></i><b>9</b> Workflows</a><ul>
+<li class="chapter" data-level="9" data-path="workflows.html"><a href="workflows.html"><i class="fa fa-check"></i><b>9</b> Workflows</a>
+<ul>
 <li class="chapter" data-level="9.1" data-path="workflows.html"><a href="workflows.html#workflows-doc"><i class="fa fa-check"></i><b>9.1</b> Documentation</a></li>
 <li class="chapter" data-level="9.2" data-path="workflows.html"><a href="workflows.html#workflows-naming"><i class="fa fa-check"></i><b>9.2</b> Naming files</a></li>
 <li class="chapter" data-level="9.3" data-path="workflows.html"><a href="workflows.html#proj-oriented"><i class="fa fa-check"></i><b>9.3</b> Project-oriented workflows</a></li>
 <li class="chapter" data-level="9.4" data-path="workflows.html"><a href="workflows.html#repro-research"><i class="fa fa-check"></i><b>9.4</b> Reproducible research in action</a></li>
 <li class="chapter" data-level="9.5" data-path="workflows.html"><a href="workflows.html#sql-and-r"><i class="fa fa-check"></i><b>9.5</b> SQL and R</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="ndcn-pipelines.html"><a href="ndcn-pipelines.html"><i class="fa fa-check"></i><b>10</b> NDCN Pipelines</a><ul>
+<li class="chapter" data-level="10" data-path="ndcn-pipelines.html"><a href="ndcn-pipelines.html"><i class="fa fa-check"></i><b>10</b> NDCN Pipelines</a>
+<ul>
 <li class="chapter" data-level="10.1" data-path="ndcn-pipelines.html"><a href="ndcn-pipelines.html#quantitative-methods-in-genetics-and-genomics-course"><i class="fa fa-check"></i><b>10.1</b> Quantitative Methods in Genetics and Genomics Course</a></li>
 <li class="chapter" data-level="10.2" data-path="ndcn-pipelines.html"><a href="ndcn-pipelines.html#ndcn-evcouplings"><i class="fa fa-check"></i><b>10.2</b> evcouplings pipeline</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="community.html"><a href="community.html"><i class="fa fa-check"></i><b>11</b> Community learning</a><ul>
-<li class="chapter" data-level="11.1" data-path="community.html"><a href="community.html#community-language"><i class="fa fa-check"></i><b>11.1</b> Language-based communities</a><ul>
+<li class="chapter" data-level="11" data-path="community.html"><a href="community.html"><i class="fa fa-check"></i><b>11</b> Community learning</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="community.html"><a href="community.html#community-language"><i class="fa fa-check"></i><b>11.1</b> Language-based communities</a>
+<ul>
 <li class="chapter" data-level="11.1.1" data-path="community.html"><a href="community.html#community-r"><i class="fa fa-check"></i><b>11.1.1</b> R</a></li>
 <li class="chapter" data-level="11.1.2" data-path="community.html"><a href="community.html#python-community-python"><i class="fa fa-check"></i><b>11.1.2</b> Python {community-python}</a></li>
 </ul></li>
@@ -211,7 +222,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="11.7" data-path="community.html"><a href="community.html#further-reading"><i class="fa fa-check"></i><b>11.7</b> Further Reading</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>12</b> Onboarding</a></li>
-<li class="chapter" data-level="13" data-path="scripts.html"><a href="scripts.html"><i class="fa fa-check"></i><b>13</b> Scripts</a><ul>
+<li class="chapter" data-level="13" data-path="scripts.html"><a href="scripts.html"><i class="fa fa-check"></i><b>13</b> Scripts</a>
+<ul>
 <li class="chapter" data-level="13.1" data-path="scripts.html"><a href="scripts.html#hackathon-r-scripts"><i class="fa fa-check"></i><b>13.1</b> hackathon R scripts</a></li>
 <li class="chapter" data-level="13.2" data-path="scripts.html"><a href="scripts.html#rnaseq-quality-control"><i class="fa fa-check"></i><b>13.2</b> RNAseq quality control</a></li>
 <li class="chapter" data-level="13.3" data-path="scripts.html"><a href="scripts.html#tidy-data-r-script-expression-data"><i class="fa fa-check"></i><b>13.3</b> tidy data R script: expression data</a></li>
@@ -236,7 +248,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="ndcn-pipelines" class="section level1">
+<div id="ndcn-pipelines" class="section level1" number="10">
 <h1><span class="header-section-number">Chapter 10</span> NDCN Pipelines</h1>
 <p><em>Preamble:</em></p>
 <!---
@@ -245,7 +257,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 - [](https://colab.research.google.com/drive/1DhSLDv6qXiLFKkSXKUFRjCEK1V4kPy0a)
   - walks through learning a metric embedding of scRNAseq data, where a model is trained on canonical single-cell RNAseq cell types and used to infer intermediary differentiation states
 --->
-<div id="quantitative-methods-in-genetics-and-genomics-course" class="section level2">
+<div id="quantitative-methods-in-genetics-and-genomics-course" class="section level2" number="10.1">
 <h2><span class="header-section-number">10.1</span> Quantitative Methods in Genetics and Genomics Course</h2>
 <ul>
 <li><a href="https://github.com/biom262/cmm262-2020">Quantitative Methods in Genetics and Genomics Course</a> - Gene Yeo and others
@@ -254,7 +266,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul>
 </div>
-<div id="ndcn-evcouplings" class="section level2">
+<div id="ndcn-evcouplings" class="section level2" number="10.2">
 <h2><span class="header-section-number">10.2</span> evcouplings pipeline</h2>
 <ul>
 <li>EVcouplings Python Framework Marks lab, <a href="https://evcouplings.org/" class="uri">https://evcouplings.org/</a></li>

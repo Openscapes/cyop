@@ -25,14 +25,15 @@ Naming files deliberately are a huge part of streamlining workflows.
 
 ## Project-oriented workflows {#proj-oriented}
 
-- [What They Forgot to Teach You About R](https://rstats.wtf/)
-  - R-focused, but Chapters 1-4 particularly are relevant no matter the language
+-   [What They Forgot to Teach You About R](https://rstats.wtf/)
+
+    -   R-focused, but Chapters 1-4 particularly are relevant no matter the language
 
 ## Reproducible research in action {#repro-research}
 
-- [The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences](https://www.practicereproducibleresearch.org) - Justin Kitzes, Daniel Turek, Fatma Deniz (Editors)
-  - Examples highlighting R, Python, open science, cloud computing, neuroimaging, and more
+-   [The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences](https://www.practicereproducibleresearch.org) - Justin Kitzes, Daniel Turek, Fatma Deniz (Editors)
 
+    -   Examples highlighting R, Python, open science, cloud computing, neuroimaging, and more
 
 ## SQL and R
 
