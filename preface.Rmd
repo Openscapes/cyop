@@ -8,6 +8,8 @@
 - opinionated to limit choice (opinions by Lowndes and others — attribution identified)
 - written for scientists by scientists
 
+You'll notice that tutorials might frame introductory lessons around either how the language works or how to use it. For example, two different introductory Python lessons from the Carpentries are framed around [programming](https://swcarpentry.github.io/python-novice-inflammation/index.html) (i.e. how Python works) and on [data analysis](https://datacarpentry.org/python-ecology-lesson/) (i.e. how to use it). Both approaches are important and might provide entryways to learners with different motivations for learning: learning how it works might be helpful if you want to learn fundamentals so you can think of how to apply them, where as learning how to use it might be preferred if you have a specific project in mind. 
+
 
 <!---  
 Recurring theme: when would I have learned this?
@@ -16,9 +18,6 @@ Further, analytical workflows can require multiple languages and software applic
 there are often stereotypes about languages, like "R is for statistics", "Python is for programming", or "The Command Line is faster" which can lead to analytical pipelines that have  involved. 
 
  with a lot of time spent file-shuffling and bookkeeping manually by you. 
-
-
-
 
 
 More concretely, if this workflow includes using Unix (Command Line) to run Python programs and manage files and also R to create figures with a lot of time spent file-shuffling and bookkeeping manually by you, this book will offer you to consider that from within R you can execute Command Line and Python functions in addition to making publication-ready graphics — all in a reproducible report that can be tracked by version-control software that also eases sharing with others.    — and that a first step might be to start calling the Command Line from R.The point is that you're not reinventing the wheel. So don't interpret this choose your own adventure as reinventing the wheel Allison. It does sound like a new thing. FRAMING 

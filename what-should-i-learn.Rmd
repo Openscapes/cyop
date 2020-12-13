@@ -1,6 +1,7 @@
 # What should I learn? {#what-to-learn}
 
-Modern scientific coders often operate with many coding languages and software in their workflow. But getting started they often have a primary language that they use along with a suite of concepts and that help them develop workflows and interoperate between languages and software to do their analytical research. Learning one language to do a task at hand can help you develop skills and mindsets that can be transferrable when you come upon other tasks. 
+Modern scientific coders often operate with many coding languages and software in our workflows. But getting started, we often have a primary language that we use along with a suite of concepts and that help us develop workflows and interoperate between languages and software to do our analytical research. Learning one language to do a task at hand can help you develop skills and mindsets that can be transferable when you come upon other tasks. 
+
 A great thing about modern computation is that there are multiple ways to do the same thing. But this can also be a really challenging thing too: what should you learn? And in which order? This chapter aims to help you find resources to learn what you need. 
 
 
@@ -15,37 +16,35 @@ to help you as a researcher identify which skills you need to develop and be del
 
 Different learner styles, more directed self-taught less wasted time and wheels reinvented.
 
-<!---We've often never had these conversations and this book tries to provide an opportunity.
+We've often never had these conversations and this book tries to provide an opportunity.
 
 Quotes: 
 - " Part of learning how to be an effective computational biologist is to learn how to learn efficiently."
 - "I think it’s really hard for new people to jump in. The learning curves can be steep, and it’s hard for them to judge how much should they expect "
 
-
 --->
-
-
 
 ---
 ## Learn a new language
 Introductory tutorials will help you install software and get comfortable using it. They will also and help you develop the mindset to seek out existing code that works (including your own!) and adapt it for your analyses. 
 
-<!---There are often stereotypes about programming languages that --->
-
-To get a sense of coding in Python...\@ref(python-sense)
+<!---- You are not sure or need to use multiple languages together...\@ref(workflow-overview)  --->
 
 You want to learn: 
 
-- **R** ...\@ref(r-intro)  
+- **R** 
+  - to get a sense of coding in R...\@ref(rstats-sense)
+  - to learn R...\@ref(rstats-intro)  
 - **Python**
-  - with no previous coding experience... \@ref(python-first)
-  - with previous coding experience...\@ref(python-second) 
+  - to get a sense of coding in Python...\@ref(python-sense)
+  - to learn Python...\@ref(python-learn) 
 - **The Command Line**...  
-- You are not sure or need to use multiple languages together...\@ref(workflow-overview)  
+
+
 
 ## Image analysis 
 
-<!---(single cell)--->
+Learn more about image analysis techniques and software with the image.sc community...\@ref(community-imagesc)
 
 You want to learn: 
 
@@ -54,9 +53,7 @@ You want to learn:
   - with no previous coding experience...\@ref(imagej-intro)
   - to write automated macros and plugins...\@ref(imagej-macros)
 - **QuPath**...  <https://qupath.github.io/>
-- **Napari**... <https://napari.org/tutorials/> - Nick Sofroniew
-<!---but right now if you're working in Python and doing image analysis you can get going from here--->
-<!--- - streamline your current workflow... --- with R/Python...--->
+- **Napari**... <https://github.com/sofroniewn/napari-training-course> - Nick Sofroniew
 
 ## RNA Sequencing
 
@@ -115,3 +112,8 @@ Platforms for data sharing <!---Gene Yeo CRED portal as an example:) ) https://w
 
 ## Containers
 - Docker ...
+
+<!---
+More advanced...
+https://coderefinery.org/lessons/
+--->

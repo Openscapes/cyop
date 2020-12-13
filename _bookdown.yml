@@ -12,9 +12,9 @@ rmd_files: [
   "imagej.Rmd",
   "github.Rmd",
   "workflows.Rmd",
-  "ndcn-workflows.Rmd",
-  "proj-mgmt.Rmd",
+  "ndcn-pipelines.Rmd",
   "community.Rmd",
+  "onboarding.Rmd",
   "scripts.Rmd"
  ]
 delete_merged_file: true

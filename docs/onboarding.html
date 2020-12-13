@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 7 ImageJ | Choose youR own Pythway</title>
-  <meta name="description" content="Chapter 7 ImageJ | Choose youR own Pythway" />
+  <title>Chapter 12 Onboarding | Choose youR own Pythway</title>
+  <meta name="description" content="Chapter 12 Onboarding | Choose youR own Pythway" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 7 ImageJ | Choose youR own Pythway" />
+  <meta property="og:title" content="Chapter 12 Onboarding | Choose youR own Pythway" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 ImageJ | Choose youR own Pythway" />
+  <meta name="twitter:title" content="Chapter 12 Onboarding | Choose youR own Pythway" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="command-line.html"/>
-<link rel="next" href="git-gh.html"/>
+<link rel="prev" href="community.html"/>
+<link rel="next" href="scripts.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -236,55 +236,50 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="imagej" class="section level1">
-<h1><span class="header-section-number">Chapter 7</span> ImageJ</h1>
-<p>ImageJ is software developed by the NIH for image analysis. The FIJI version comes packaged with many plugins which allow for many common image analysis methods you may need, and is the recommended version to use. The main appeal of ImageJ over other software choices (like Python) because it enables you to analyze images with minimal coding. From <a href="https://imagej.net/Welcome">the ImageJ homepage</a>:</p>
-<blockquote>
-<p>ImageJ is an open source image processing program designed for scientific multidimensional images. It is also highly extensible, with thousands of plugins and scripts for performing a wide variety of tasks, and a large user community.</p>
-</blockquote>
-<div id="imagej-intro" class="section level2">
-<h2><span class="header-section-number">7.1</span> Intro to ImageJ and FIJI</h2>
-<p>FIJI (“Fiji Is Just ImageJ”) is the <a href="https://imagej.net/ImageJ">recommended</a> version of ImageJ.</p>
+<div id="onboarding" class="section level1">
+<h1><span class="header-section-number">Chapter 12</span> Onboarding</h1>
+<p><em>Computational Onboarding has been a recurring theme: how do you help others get “on board” with lab practices and protocols as quickly as possible?</em></p>
+<p><strong>What is computational onboarding?</strong></p>
+<p>Onboarding is a business/management term for how new employees “acquire the necessary knowledge, skills, and behaviors in order to become effective organizational members and insiders” (<a href="https://en.wikipedia.org/wiki/Onboarding">Wikipedia</a>). In a research setting, computational onboarding is the set practices for your lab that set the tone for what is expected. These practices are about tools and social norms – it’s as much about “here are our values and code of conduct” as it is about “we use these software tools and store our data in this place.”</p>
+<p>Computational onboarding is an opportunity to put your values forward, model the behavior you want to see in your group &amp; in science (i.e. your lab, dept, campus, online). An important part of onboarding is talking about what shared practices should be in your lab, and building trust and buy-in between lab members. You must be intentional about this: it is critical for inclusion and belonging in the lab, and not perpetuating inequities. Instead of the skills you have when you come to the lab determining how you will be able to Do Science, have shared practices in the lab and paths to onboard new people to work that way as well. It is an opportunity to address and fight sexual harassment and structural racism in science. Having a Code of Conduct as part of onboarding documentation is a part of this.</p>
+<p>Thinking about onboarding means developing a team mindset for computation and to focus on similarities rather the differences between research in your lab. Since many of us are never formally trained in computational skills, we are self-taught and often develop analytical habits we feel are personal. But there is an advantage to having group conventions. It saves time by reducing everyday friction and reinventing the wheel for computational analyses. It can also increase morale and fuel collaborations within your lab group. Shared practices should be balanced with the need to accommodate for different skills people come in with. For example, if someone is more efficient in python, you don’t want to force R. But you should discuss how to interoperate between the two.</p>
+<p>Writing onboarding plans down in a document helps everyone be on the same page (literally). This should be co-created by your lab as an activity to increase awareness and buy-in of shared practices. And using open/cloud-based software that is accessible from any Internet browser can facilitate open/shared culture and promotes open science! Some examples:</p>
 <ul>
-<li><a href="https://imagej.net/Introduction">Intro to ImageJ</a> - ImageJ Team
+<li>How we work: <a href="https://github.com/pinskylab">Pinsky Lab</a>, Lab policies: <a href="https://github.com/BahlaiLab">Bahlai Lab</a>. Code of Conduct: <a href="https://github.com/keiserlab/policy">Keiser Lab</a>
 <ul>
-<li>Assumes no previous experience. Links to Getting Started and Tutorials.</li>
+<li>These are all Markdown files in a Lab’s GitHub Organization homepage</li>
 </ul></li>
-</ul>
-</div>
-<div id="imagej-macros" class="section level2">
-<h2><span class="header-section-number">7.2</span> ImageJ Macros</h2>
-<p>Macros are a way to automate a series of ImageJ commands for image analysis in ImageJ with minimal coding. They are usually written in a special ImageJ macro language that is like a simpler version of Java. You can create a macro by recording a series of commands you make, and you can also reuse or remix hundreds of existing macros from the community.</p>
+<li>Standard operating procedures (SOP): <a href="https://rawgit.com/OHI-Science/ohiprep/master/src/dataOrganization_SOP.html">Ocean Health Index</a>, <a href="https://emlab-ucsb.github.io/SOP/">emLab</a>, <a href="https://thefaylab.github.io/lab-manual/">FayLab Manual</a>
 <ul>
-<li><a href="https://imagej.nih.gov/ij/developer/macro/macros.html">ImageJ Macro Language</a> - ImageJ Team
-<ul>
-<li>Assumes no previous coding experience.</li>
+<li>Rmarkdown published as webpage or e-book</li>
 </ul></li>
-</ul>
-</div>
-<div id="imagej-plugins" class="section level2">
-<h2><span class="header-section-number">7.3</span> ImageJ Plugins</h2>
-<p>As the ImageJ Macro language is quite limited in the calculations it can perform itself, you may find that is unable to run the types of analysis you are trying to do (or that it does them very slowly). The way to remedy this is to write your own Java plugin which adds functionality to ImageJ.</p>
+<li>Weekly onboarding-centered lab meetings: <a href="https://docs.google.com/document/d/e/2PACX-1vQEN-hqEIvnddWNdpYdATzZIUgAFFzKzPCLm5ijjSQeViD6E4ExAbHXYyhQSF58SyJQrWR40i6P_h2u/pub">Wood Lab</a>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=YIWpoBnnLio">How To Make Fiji Plugin</a> - ImageJ Fiji YouTube Channel
-<ul>
-<li>Assumes familiarity with Java. Recommended to use Eclipse to easily develop your Java code and to edit an existing plugin .jar file so that the maven packaging of the plugin is easier to manage.</li>
-<li>Note: this example uses an older version of the ImageJ API, so we recommend using a newer plugin like <a href="https://github.com/fiji/Skeletonize3D">Skeletonize3D</a> instead.</li>
+<li>Google Doc &gt; File &gt; Publish to the Web</li>
 </ul></li>
+<li>Notice that all of these are public. Leverage online: not only easier to find but is welcoming: signals diversity and inclusion</li>
 </ul>
-<!---OTHER CONSIDERATIONS
+<!---
 
-https://www.protocols.io/view/imagej-plate-count-protocol-f2mbqc6--->
+What is Onboarding? 
+Wikipedia: management/business jargon: "the mechanism through which new employees acquire the necessary knowledge, skills, and behaviors in order to become effective organizational members and insiders….Studies have documented that socialization techniques such as onboarding lead to positive outcomes for new employees. These include higher job satisfaction, better job performance, greater organizational commitment, and reduction in occupational stress and intent to quit."
+What does Onboarding mean for research?
+Traditionally: keys, desk, wet-bench protocols, etc
+Computationally: what software we use, where we store data, 
+Huge opportunities to establish shared practices, focus on diversity and inclusion
+Means creating best lab practices & philosophy, and formalizing as document, and sharing via public software like github/google docs etc. to put your values forward and practice open science 
+It's  for shared analytical practices, lab values and setting an inclusive tone
 
-</div>
+--->
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="command-line.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="git-gh.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="community.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="scripts.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

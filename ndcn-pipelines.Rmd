@@ -1,4 +1,4 @@
-# Workflows by NDCN {#ndcn-workflows}
+# NDCN Pipelines {#ndcn-pipelines}
 
 *Preamble:*
 

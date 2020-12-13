@@ -1,6 +1,11 @@
 # Python {#python}
 
-Python is a powerful language for programming and data science and has wide use in scientific communities. The [Python Docs website](https://docs.python.org/3/) has links to news and resources, and their [Hitchhiker's guide to Python](https://docs.python-guide.org/) provides a nice overview and links to many [tutorials](https://docs.python-guide.org/intro/learning/#beginner) sorted by beginner, intermediate, and advanced.
+
+Python is a very powerful language for programming and data science and has wide use in scientific communities. The [Python Docs website](https://docs.python.org/3/) has links to news and resources, and their [Hitchhiker's guide to Python](https://docs.python-guide.org/) provides a nice overview and links to many [tutorials](https://docs.python-guide.org/intro/learning/#beginner) sorted by beginner, intermediate, and advanced.
+
+**Versions**. Python had some upgrades between versions 2 and 3 in \~2010, and it's important to keep this in mind as you learn. A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. Either way, the majority of your learning will be the same.
+
+**R users**. If you are an R user, consider using Python in RStudio with [reticulate](https://rstudio.github.io/reticulate/) to reduce the overhead for getting started.
 
 ## Getting a sense of Python {#python-sense}
 
@@ -9,30 +14,20 @@ Reading blog posts are also a good way for getting a sense of Python, and you ca
 - [Testers and Data Science](https://testerstories.com/2018/01/testers-and-data-science-part-1/) - Jeff Nyman
   - 4-part blog describing considerations for data science; you can follow hands-on with Python from Jupyter notebooks
   - Python 3
+- [Python Recipe: Open a file, read it, print matching lines](https://palewi.re/posts/2008/04/05/python-recipe-open-a-file-read-through-it-print-each-line-matching-a-search-term/) - Ben Welsh
+  - Nice narrative with minimal code describing wanting to search for a pattern in a file and save the search results
+  - Python 2
 
-```{=html}
-<!---You can execute scripts in Python but want to learn how to write Python
-There can be a difference in mindset between programming and working with data (data science). While they both mean that you are coding, the entryways are different (for example, object types and loops verses subsetting and visualizing data)
+## Learning Python {#python-learn}
 
+-   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - The Carpentries (Software Carpentry)
 
+    - Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks. Recommended as an intro to how Python works for programming (see next).
+    - Python 3
+- [Data analysis and visualization in Python for ecologists](https://datacarpentry.org/python-ecology-lesson/) - The Carpentries (Data Carpentry)
 
-Other reticulate resources: 
-also watch this video: https://docs.rstudio.com/tutorials/user/using-python-with-rstudio-and-reticulate/)
-Less-helpful: https://support.rstudio.com/hc/en-us/articles/360023654474-Installing-and-Configuring-Python-with-RStudio
-Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lecture 15
- 
-
-
---->
-```
-**Versions**. Python had some upgrades between versions 2 and 3 in \~2010, and it's important to keep this in mind as you learn, since you may come across code that is deprecated in the newest version (this is true of any language, not just Python). A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. (See also [this discussion on page *vi*](https://link.springer.com/book/10.1007/978-3-662-49887-3)). Either way, the majority of your learning will be the same, but just keep these Versions in mind.
-
-## Learning Python as a first language {#python-first}
-
--   [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry
-
-    -   Assumes no previous coding experience <!--- setup recommends using Anaconda Jupyter Notebook --->
-    -   Python 3
+    - Not just for ecologists! Assumes no previous coding experience, and setup recommends using Anaconda and Jupyter Notebooks. Recommended as an intro from how to use Python for data analysis (see previous).
+    - Python 3
 
 -   [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) - Jake VanderPlas
 
@@ -46,41 +41,26 @@ Allison Horst lecture #15 (linked from allisonhorst.github.io > ESM 255 > Lectur
     -   Python 3
 
 -   [Python for Data Analysis](https://github.com/cuttlefishh/python-for-data-analysis) - Luke Thompson
-
     -   Assumes no previous experience coding. [Numbered lessons](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule) also include intro to the command line.
 
-## Learning Python as a second language {#python-second}
-
 -   [Scipy Lecture Notes](https://scipy-lectures.org/index.html) - Edited by Varoquaux et al.
-
     -   Assumes some familiarity with coding concepts
     -   Python 3
 
 -   [Python Introduction](https://developers.google.com/edu/python/introduction) - Google for Education
 
-    -   Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.\
+    -   Assumes strong familiarity with coding concepts, for example that you are learning Python as a second programming language.
     -   Python 2
 
-```{=html}
-<!---
-Hi @margaret.sutherland I asked around about some intro Python books, and some exciting news - Springer just made some available free online https://link.springer.com/book/10.1007/978-3-662-49887-3 and https://link.springer.com/book/10.1007/978-3-030-20290-3  Nick hasn't had a chance to review them yet, but might be a good source.
+### Setting up a python environment
+
+- [Creating a reproducible (python-centric) environment](https://docs.google.com/presentation/d/1qNJrRJsiMRHRyvFzbySmmbtgDgVtG5ht95892-39CVE/edit#slide=id.p) - Chris Sifuentes
+  - These slides from NDCN Office Hours describe what an environment is, why it's important for reproducibility, and how to set it up in Python
 
 
-https://github.com/wajra/python-workshop + associated videos! 
-https://github.com/cuttlefishh/python-for-data-analysis
-https://datacarpentry.org/python-ecology-lesson/
-
---->
-```
 ## Machine Learning
 
 -   [Introduction to Machine Learning](https://www.coursera.org/learn/machine-learning-duke) - Lawrence Carin, Coursera
-
-```{=html}
-<!---
-^was pretty short and conceptual, the coding assignments could use more work and support. Good for going from zero to a good conceptual understanding in a short period of time. (Many machine learning algorithms can be used like a function so this may be all you need to apply existing networks to your data)
-
-Roman: i’m taking a EdX course incl bioconductor
-Really nice: not about implementing stats but instead understanding the concepts behind. Simulations to understand pvalues. (which course?)
---->
-```
+    - This course will "provide you a foundational understanding of machine learning models (logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc.) as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction."
+    
+    

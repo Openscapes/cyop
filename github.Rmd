@@ -4,8 +4,6 @@ Git is powerful software that tracks files on your local computer and takes care
 
 Git and GitHub were not designed for scientists as primary users, so there are a lot of powerful features (branches, pull requests) that might not be immediately useful for scientists just getting started. And that's okay! Interacting with GitHub from the browser is a fine way to start.
 
-*Preamble: IDEs vs command line, not branches, etc*
-
 <!---Traditionally a miserable experience for scientists--->
 
 ## Git/GitHub Setup {#git-gh-setup}
@@ -22,7 +20,15 @@ There are several ways to interact with Git and GitHub from your computer, allow
 
 -   GitHub from the Command Line\
 
--   [GitHub with RStudio](https://rstudio-conf-2020.github.io/r-for-excel/github) - Julia Lowndes & Allison Horst, R for Excel Users
+### GitHub for R users
+
+If you are an R user, you can interact with GitHub directly from RStudio, which enables a very streamlined workflow without extra software or need for the command line (for most daily needs).
+
+- [Happy Git for the UseR](https://happygitwithr.com) - Jenny Bryan
+  - This is THE best resource for setting up and using GitHub with RStudio. Particularly important chapters include: [Troubleshooting: RStudio, Git, GitHub Hell](https://happygitwithr.com/troubleshooting.html) and [Setting up GitHub from an existing project](https://happygitwithr.com/existing-github-first.html). 
+
+- [GitHub with RStudio](https://rstudio-conf-2020.github.io/r-for-excel/github) - Julia Lowndes & Allison Horst, R for Excel Users
+  - Also see the chapter on [Collaborating with others using GitHub](https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html#collaborating-with-github)
 
 ## Fixing mistakes {#gh-fix}
 
@@ -30,10 +36,10 @@ There are several ways to interact with Git and GitHub from your computer, allow
 
 ## GitHub Issues {#gh-issues}
 
--   [GitHub for project management](https://openscapes.github.io/series/github-issues.html) - Julie Lowndes, Openscapes
+-   [GitHub for project management](https://openscapes.github.io/series/github-issues.html) - Openscapes
 
     -   Assumes no previous experience or installation; based in the web browser
 
--   [GitHub for publishing](https://openscapes.github.io/series/github-pub.html) - Julie Lowndes, Openscapes
+-   [GitHub for publishing](https://openscapes.github.io/series/github-pub.html) -  Openscapes
 
     -   Assumes no previous experience or installation; based in the web browser

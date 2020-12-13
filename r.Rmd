@@ -2,40 +2,41 @@
 
 *Preamble: thought of as just for statistics...Why do you want to learn R?*
 
-```{=html}
-<!---I'm new to all of this.
+R is a programming language with roots in statistics but also for powerful for data science and reproducible research. 
 
-https://twitter.com/ProfMattFox/status/1262013644306595840?s=20
-https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/
-https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/
-https://kdestasio.github.io/post/r_best_practices/, also could go in workflows
---->
-```
-Modern R users use RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (\#rstats). <!---Tidyverse & RStudio airport--->
+<!---There are many resources for learning R, including the [\#rstats community](https://twitter.com/search?q=%23RStats&src=typeahead_click) on Twitter and [resources](https://twitter.com/ProfMattFox/status/1262013644306595840?s=20) [they create](https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/). --->
 
-## Intro to R/RStudio for data science with the tidyverse {#r-intro}
+## Get a sense of R {#rstats-sense}
+
+- [R best practices](https://kdestasio.github.io/post/r_best_practices/) - Krista DeStasio
+
+- [How to Clean Messy Data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/) - David Keyes
+
+- [Data Wrangling Part 1: Basic to Advanced Ways to Select Columns](https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/) - Suzan Baert
+
+## Intro to R with RStudio/tidyverse {#rstats-intro}
+
+Many modern R users interact with R through RStudio. RStudio provides a software interface (called the IDE: Integrated Development Environment), concepts of tidy data, analytical packages (including tidyverse and tidymodels), reproducible reporting and publishing (RMarkdown, bookdown, blogdown), and interactive dashboards (Shiny), and a powerful user and developer community (\#rstats). <!---Tidyverse & RStudio airport--->
+
 
 -   [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Julia Lowndes & Allison Horst
 
-    -   Assumes no previous coding experience (not only Excel users), and teaches R as a workflow, full of tidyverse, RMarkdown, GitHub, collaboration & reproducibility.
+    -  This is for anyone, not just Excel users! Assumes no previous coding experience, and teaches R as a workflow with GitHub and RMarkdown, with a focus on collaboration & reproducibility.
 
--   [R for Data Science](r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
+-   [R for Data Science](https://r4ds.had.co.nz/) - Hadley Wickham & Garrett Grolemund
 
-    -   THE go-to resource for all things tidyverse. Called R4DS for short.
-    -   learn with the R4DS community...\@ref(community-r4ds)
+    -   THE go-to resource for learning R with the tidyverse.
+    -   learn with the R4DS community...\@ref(community-r)
 
 -   [R Education for Beginners](https://education.rstudio.com/learn/beginner/) - RStudio Education
 
-```{=html}
-<!---
-R: tidyverse and tidy data. People start using R and haven’t heard of tidyverse, some people learn tidyverse and don’t know it
+## Code style guide {#style-guide}
 
-https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/
---->
-```
-## Statistics with R
+- [Tidyverse style guide](https://style.tidyverse.org/) - Hadley Wickham
+  - "Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread."
+  - Describes style for the tidyverse and Google's current R Style Guide
 
-<!--- Distinguish between prev experience ### You need to learn statistics and R ...--->
+## Statistics with R {#rstats-stats}
 
 -   [Statistics and R](https://www.edx.org/course/statistics-and-r) - Rafael Irizarry & Michael Love
 
@@ -58,19 +59,6 @@ https://suzanbaert.netlify.app/2018/01/dplyr-tutorial-1/
   - A tidyverse focused course on "robust data science tools" covering data manipulation, data visualisation, an introduction to github and blogdown, as well as programming tutorials that incidentally teach you the basics of making generative artwork!
   - watch on Danielle's [YouTube Channel](https://www.youtube.com/daniellenavarro77)
 
-```{=html}
-<!---
-
-Statistical modeling in R
-
-<http://faculty.marshall.usc.edu/gareth-james/ISL/>
-
-\#\#\# Intermediate R for data science
-
-\- [R Education for Intermediate](%5Bhttps://education.rstudio.com/learn/intermediate/)](<https://education.rstudio.com/learn/intermediate/>)) - RStudio Education
-
---->
-```
 ## RMarkdown {#rmarkdown}
 
 This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes how RMarkdown powerfully combines simple text formatting with executable R code (also called literate programming), fueling efficient, reproducible research. R Markdown is also powerful for publishing.
@@ -78,6 +66,10 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
 -   [RStudio's RMarkdown Website](https://rmarkdown.rstudio.com/) - RStudio
 
     -   Assumes no previous experience with RMarkdown, and has a showcase Gallery
+
+- [RMarkdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) - Yihui Xie, J.J. Allaire, Garrett Grolemund
+
+- [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) - Yihui Xie, Christophe Dervieux, Emily Reiderer
 
 -   [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) - Nick Tierney
 
@@ -99,14 +91,15 @@ This [What is RMarkdown](https://vimeo.com/178485416) 1-minute video describes h
 
 -   [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham
 
-    -   Assumes...
-
 -   [Shiny tips & tricks for improving your apps and solving common problems](https://deanattali.com/blog/advanced-shiny-tips/) - Dean Attali
 
 ## Machine Learning {#rstats-ml}
 
 -   [tidymodels](https://www.tidymodels.org/) by RStudio Education
 
-    -   Assumes...check out Ch X first
-
 -   [Supervised Machine Learning for Text Analysis in R](https://smltar.com/) by Emil Hvitfeldt and Julia Silge
+
+## Full Courses
+
+- [QCBS](https://wiki.qcbs.ca/r)
+- [Reproducible Quantitative Methods](https://cbahlai.github.io/rqm-template/) - Christie Bahlai

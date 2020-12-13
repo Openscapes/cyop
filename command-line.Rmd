@@ -1,7 +1,11 @@
 # The Command Line {#command-line}
 
-*Preamble: The Command Line has many names, including Unix, Terminal...*
+The Command Line has many names, including Unix, bash, Terminal (on a Mac). There can be slight differences between these, but largely they are interchangeable, especially as we're getting started. 
 
 <!---
 https://www.coursera.org/learn/unix#syllabus 
 --->
+
+## Getting a sense of the command line
+
+- [Friendly introduction to the command line](https://hellowebbooks.com/learn-command-line/)

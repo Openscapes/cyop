@@ -1,8 +1,8 @@
-# Workflows & pipelines {#workflows}
+# Workflows {#workflows}
 
 There are a lot of steps involved in computational analyses, and documenting those steps is really important for efficiency and reproducibility. Documentation can go along with code that automates these steps, and there are often opportunities to streamline how steps work together and how you as the user has to interoperate between software applications or languages. You can get inspired with this list of [awesome pipelines](https://github.com/pditommaso/awesome-pipeline). <!---from Mike Keiser--->
 
-All of this is critically important for Future You, who is the person most likely to build off of your own work. And let's also think about Future Us: the idea that someone different will need to understand this project someday (a future student, collaborator, peer-reviewer, boss). Creating documents that serve to "onboard" others to your workflows is a great thing to create, as well as creating a daily log or diary for yourself of what you've done and what steps are involved.
+All of this is critically important for Future You, who is the person most likely to build off of your own work. And let's also think about Future Us: the idea that someone different will need to understand this project someday (a future student, collaborator, peer-reviewer, boss). Creating documents that serve to "onboard" others to your workflows is a great thing to create, as well as creating a daily log or diary for yourself of what you've done and what steps are involved. And don't forget coding style guides... \@ref(style-guide).
 
 Talking about workflows with your direct collaborators as well as your colleagues is a big part of iteratively improving them --- so you can focus more time on Science and less on bookkeeping by hand.
 
@@ -23,8 +23,19 @@ Naming files deliberately are a huge part of streamlining workflows.
 
     -   short slide deck championing 3 filenaming principles
 
+## Project-oriented workflows {#proj-oriented}
+
+- [What They Forgot to Teach You About R](https://rstats.wtf/)
+  - R-focused, but Chapters 1-4 particularly are relevant no matter the language
+
+## Reproducible research in action {#repro-research}
+
+- [The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences](https://www.practicereproducibleresearch.org) - Justin Kitzes, Daniel Turek, Fatma Deniz (Editors)
+  - Examples highlighting R, Python, open science, cloud computing, neuroimaging, and more
+
+
 ## SQL and R
 
 -   [Using SQL in RStudio](https://irene.rbind.io/post/using-sql-in-rstudio/)
 
-    -   Assumes you are already an R/RStudio user. For a refresher...\@ref(r-intro)
+    -   Assumes you are already an R/RStudio user. For a refresher...\@ref(rstats-intro)
