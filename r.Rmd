@@ -51,6 +51,13 @@ Many modern R users interact with R through RStudio. RStudio provides a software
 -   [Advanced methods for (environmental) data analysis in R](https://allisonhorst.github.io/) - Allison Horst
 
     -   Assumes you've taken the previous course above
+    
+    
+- [Learning Statistics with R ](https://learningstatisticswithr.com/) - Danielle Navaro ([@djnavarro/](https://twitter.com/djnavarro/))
+  - an introductory textbook on statistics with R pitched at beginners focusing on base R rather than tidyverse tools.
+- [Data science with R](https://robust-tools.djnavarro.net/) - Danielle Navaro ([@djnavarro/](https://twitter.com/djnavarro/))
+  - A tidyverse focused course on "robust data science tools" covering data manipulation, data visualisation, an introduction to github and blogdown, as well as programming tutorials that incidentally teach you the basics of making generative artwork!
+  - watch on Danielle's [YouTube Channel](https://www.youtube.com/daniellenavarro77)
 
 ## RMarkdown {#rmarkdown}
 

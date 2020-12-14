@@ -31,7 +31,7 @@ Read more in the Preface in Chapter \@ref(preface) and then go to Chapter \@ref(
 
 ## About
 
-We are developing this book specifically to meet the needs of biomedical scientists who are part of the [Chan Zuckerberg Initiative ](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) --- but it is designed for wide use across research domains. It is led, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of NDCN contributors, including you. <!---supported by CZI---> Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
+We are developing this book specifically to meet the needs of biomedical scientists who are part of the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/)'s [Neurodegenerative Challenge Network](https://medium.com/@cziscience/a-new-approach-to-solving-neurodegeneration-2aa50654ed04) --- but it is designed for wide use across research domains. It is led, edited and maintained by [Julia Stewart Lowndes](http://jules32.github.io) and [Openscapes](https://openscapes.org) with help from a growing number of NDCN contributors, including you. <!---supported by CZI---> Demonstrating the power of open source not only for analysis but for communication, the book is written in R ([bookdown](https://bookdown.org/yihui/bookdown/)) and published through GitHub.
 
 Contributors include:
 
@@ -50,4 +50,4 @@ We welcome contributions: please edit the book or share resources that have help
 
 <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png){style="border-width:0"}</a> This book is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
 
-<img src="img/CZI_Logotype_RGB.png" width="100">
+![](img/CZI_Logotype_RGB.png){width="100"}

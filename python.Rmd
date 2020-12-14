@@ -5,6 +5,8 @@ Python is a very powerful language for programming and data science and has wide
 
 **Versions**. Python had some upgrades between versions 2 and 3 in \~2010, and it's important to keep this in mind as you learn. A [recommendation](https://www.quora.com/As-someone-interested-in-learning-Python-should-I-start-with-2-x-or-go-straight-to-3-x/answer/Wesley-Chun?srid=hFhk&share=1) is that if you're learning Python to create your own new workflows, focus on Python 3, and if you'll primarily be running older workflows, focus on Python 2. Either way, the majority of your learning will be the same.
 
+**Tip**: Keep your eye on [Scientific-Python](https://scientific-python.org/), a new effort to coordinate scientific Python development, funded by the Moore Foundation and led by UC Berkeley.
+
 **R users**. If you are an R user, consider using Python in RStudio with [reticulate](https://rstudio.github.io/reticulate/) to reduce the overhead for getting started.
 
 ## Getting a sense of Python {#python-sense}

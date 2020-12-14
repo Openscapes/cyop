@@ -2,7 +2,7 @@
 
 The Internet is full of resources for learning and troubleshooting how to code, and those resources are created by communities of people: software developers, researchers, teachers, and learners. Here are some communities to engage with. 
 
-```{r, echo=FALSE, message=FALSE}
+```{r, eval=FALSE, echo=FALSE, message=FALSE}
 ## https://github.com/gadenbuie/tweetrmd
 
 # devtools::install_github("gadenbuie/tweetrmd")
