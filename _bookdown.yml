@@ -15,7 +15,8 @@ rmd_files: [
   "ndcn-pipelines.Rmd",
   "community.Rmd",
   "onboarding.Rmd",
-  "scripts.Rmd"
+  "scripts.Rmd", 
+  "ndcn-office-hours.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"
